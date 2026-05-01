@@ -3,10 +3,9 @@
 Hi, I'm Babatunde.
 I'm documenting my journey to becoming a Data Analyst .
 
-## Projects
-| Project | Tools Used | Status |
+## Project | Tools | Status |
 |---|---|---|
-| Superstore Sales Analysis | Python, Tableau | 🔄 In Progress |
+| [Superstore Sales Analysis](project-01-superstore/) | Python · pandas · Tableau | ✅ Complete |
 
 ## Skills
 SQL · Python (pandas) · Tableau 
