@@ -1,18 +1,18 @@
 # Project 01 — Superstore Sales Analysis
 
 ## Overview
-The project is about the analysis of a superstore, exposing everything about the sales both in chart and in texts
+This project analyzes Superstore sales to identify profit drivers, loss-making products, and the impact of discounting. The findings are supported by charts, summary statistics, and actionable business recommendations.
 
 ## Business Questions Answered
-- Which category drives the most profit - Technology
-- Which sub-categories are losing money - Tables, Bookcases
-- Does discounting hurt profitability - Yes, as it is seen in the visuals/ file
+- Which category drives the most profit? Technology
+- Which sub-categories are losing money? Tables, Bookcases, and Supplies
+- Does discounting hurt profitability? Yes, the analysis shows discounting is eroding margins in loss-making segments
 
 ## Key Findings
-- Technology dominates profitability while Furniture lags significantly
-- Tables, Bookcases, and Supplies generate negative profit; Tables are hardest hit at 26% average discount
-- Discount rates show strong inverse correlation with profit—over-discounting is the primary profitability killer
-- Reducing discounts on loss-making sub-categories is critical to restore Furniture category margins
+- Technology is the most profitable category, while Furniture shows the weakest profitability and requires attention
+- Tables, Bookcases, and Supplies are unprofitable; Tables are the worst performer with the highest average discount rate at 26%
+- There is a clear negative relationship between discount rate and profit, indicating over-discounting is reducing margins
+- The strongest action is to reduce discounts on these loss-making sub-categories and review pricing strategy for Furniture
 
 ## Tools
 Python · pandas · matplotlib · seaborn
