@@ -1,2 +1,5 @@
 **/data/*.csv
 **/data/*.db
+project-02-covid/data/owid-covid-data.csv
+project-02-covid/covid_analysis.db
+project-02-covid/covid_analysis.db-journal
