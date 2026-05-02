@@ -1,4 +1,4 @@
-1. The death rate in nigeria is really low compared to france
+1. Nigeria's reported death rate is much lower than France's because the outbreak arrived later there, the population is younger, and fewer COVID deaths were confirmed.
 2. US have the most cases but not the highest death rate beause they have better medical facilities to take care of their victims
 3. Europe was the first region hit hardest by COVID-19 before vaccines were developed, and with its elderly population being more vulnerable to the virus, this led to significantly higher death tolls.
 4. The low reported infection rate of 0.12% in Nigeria doesn't reflect the actual spread because many cases went untested due to limited access to testing facilities and were often mistaken for other illnesses like malaria.
