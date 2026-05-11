@@ -1,4 +1,4 @@
-## HR Attrition Analysis — Key Business Findings
+## HR Attrition Analysis —  Key Business Findings
 
 ### Finding 1: Attrition Rate is Above Industry Average
 The company has a 16.12% attrition rate, slightly above the 
