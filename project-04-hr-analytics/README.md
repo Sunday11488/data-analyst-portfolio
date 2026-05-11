@@ -26,3 +26,6 @@ SQL · DB Browser for SQLite
 
 ## Dataset
 1,470 employees · IBM HR Analytics Dataset
+
+## Project Notebook
+You can view the full analysis and data visualizations here: [View Analysis Notebook](./notebook_analysis.ipynb)
