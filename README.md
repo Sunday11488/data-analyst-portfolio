@@ -12,6 +12,7 @@ Building everything in public.
 | [COVID-19 Global Analysis](project-02-covid/) | SQL · Tableau | ✅ Complete |
 | [E-Commerce Sales Analysis](project-03-ecommerce/) | Python · pandas · Tableau | ✅ Complete |
 | [HR Analytics](project-04-hr-analytics/) | SQL · Python · pandas | ✅ Complete |
+| [SamiCommerce UK Capstone](project-05-capstone/) | Python · pandas · Tableau · SQL | ✅ Complete |
 
 ## Skills
 SQL · Python (pandas) · Tableau · Git · Excel
