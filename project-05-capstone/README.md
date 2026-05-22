@@ -45,3 +45,6 @@ Python · pandas · matplotlib · seaborn · Tableau · SQL
 - `report/business_problem.md` — problem definition
 - `report/final_report.md` — final findings and recommendations
 - `visuals/` — all charts
+
+## Power BI Report
+Download: `SamiCommerce_PowerBI.pbix`
