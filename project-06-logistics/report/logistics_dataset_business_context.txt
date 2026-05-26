@@ -1,0 +1,18 @@
+
+Business Context:
+This dataset represents a multinational logistics and delivery company handling freight operations
+across multiple countries. The company manages different freight modes including air, sea, road,
+and rail shipments. Orders vary by booking priority, delivery timelines, and operational performance.
+The dataset includes realistic operational issues such as delayed deliveries, cancellations,
+missing operational data, duplicate records, and extreme revenue outliers, making it suitable
+for real-world analytics, Power BI dashboards, KPI reporting, and data cleaning projects.
+
+Suggested Analysis Questions:
+1. Which freight type generates the highest total revenue?
+2. Which cities and countries contribute the most orders?
+3. What is the percentage of on-time deliveries by freight type?
+4. Which drivers handle the most successful deliveries?
+5. How do express bookings impact transit days?
+6. What factors contribute most to delivery delays?
+7. Which months recorded the highest logistics revenue?
+8. Are there operational anomalies or outliers affecting business performance?

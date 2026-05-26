@@ -1,0 +1,960 @@
+OrderID,CustomerName,City,Country,FreightType,BookingType,Revenue,TotalLoads,DeliveryStatus,OnTimeDelivery,DriverName,TruckID,OrderDate,DeliveryDate,TransitDays,Month
+ORD-10523,Vision Logistics,São Paulo,Brazil,Air Freight,Express,10630.81,1,Delivered,True,David Ade,TRK-650,2025-08-11,2025-08-12,1,2025-08
+ORD-10602,Blue Retail,Lagos,Nigeria,Rail Freight,Bulk Contract,12171.01,8,Delivered,False,Samuel Ade,TRK-510,2025-11-17,2025-11-25,8,2025-11
+ORD-10526,Titan Imports,Nairobi,Kenya,Rail Freight,Standard,13729.11,9,Delivered,True,Peter Mensah,TRK-132,2025-03-11,2025-03-23,12,2025-03
+ORD-10031,Swift Supplies,São Paulo,Brazil,Sea Freight,Bulk Contract,14255.66,3,Delayed,False,Ibrahim Ade,TRK-979,2026-03-19,2026-04-29,41,2026-03
+ORD-10616,Nova Holdings,Nairobi,Kenya,Road Freight,Bulk Contract,5841.09,18,Delivered,True,David Ali,TRK-361,2026-02-13,2026-02-15,2,2026-02
+ORD-10585,Vision Imports,London,UK,Sea Freight,Express,27312.5,9,Delivered,True,Daniel Smith,TRK-753,2025-01-10,2025-02-06,27,2025-01
+ORD-10444,Swift Industries,Toronto,Canada,Road Freight,Bulk Contract,7063.18,12,Delivered,True,David Musa,TRK-645,2026-01-30,2026-02-03,4,2026-01
+ORD-10732,Prime Retail,Dubai,UAE,Sea Freight,Express,17936.34,10,Delivered,True,Joseph Musa,TRK-256,2025-03-21,2025-04-23,33,2025-03
+ORD-10076,Elite Holdings,Hamburg,Germany,Road Freight,Express,4775.96,8,Delayed,False,Daniel Brown,TRK-990,2025-08-17,2025-08-29,12,2025-08
+ORD-10411,Apex Industries,Abuja,Nigeria,Sea Freight,Express,38092.29,6,Delivered,False,John Mensah,TRK-913,2025-01-27,2025-02-26,30,2025-01
+ORD-10568,Apex Imports,Abuja,Nigeria,Sea Freight,Standard,30326.29,3,Delivered,True,David Ojo,TRK-795,2025-12-18,2026-01-11,24,2025-12
+ORD-10070,Elite Logistics,Abuja,Nigeria,Road Freight,Standard,6409.43,13,Delivered,False,Daniel Okafor,TRK-422,2025-05-28,2025-06-09,12,2025-05
+ORD-10675,Global Retail,Toronto,Canada,Air Freight,Standard,6074.72,1,Delivered,True,Victor Ojo,TRK-102,2025-04-27,2025-05-02,5,2025-04
+ORD-10101,Swift Partners,Johannesburg,South Africa,Road Freight,Standard,7949.49,12,Delivered,True,David Okafor,TRK-951,2025-06-10,2025-06-18,8,2025-06
+ORD-10894,Titan Industries,Dubai,UAE,Road Freight,Same Day,39447.06,13,Delivered,True,Victor Cole,TRK-595,2025-09-07,2025-09-13,6,2025-09
+ORD-10925,Metro Supplies,Nairobi,Kenya,Air Freight,Standard,7384.43,15,Delivered,False,Samuel Smith,TRK-176,2026-02-25,2026-02-28,3,2026-02
+ORD-10629,Apex Holdings,Dubai,UAE,Road Freight,Standard,42578.82,7,Delivered,True,Daniel Cole,TRK-710,2026-03-03,2026-03-11,8,2026-03
+ORD-10299,Metro Retail,Accra,Ghana,Road Freight,Bulk Contract,5200.27,9,Delivered,True,James Okafor,TRK-593,2025-02-22,2025-02-24,2,2025-02
+ORD-10924,Elite Retail,Port Harcourt,Nigeria,Road Freight,Standard,7745.02,9,Delivered,True,David Okafor,TRK-610,2026-03-24,2026-03-27,3,2026-03
+ORD-10424,Apex Industries,São Paulo,Brazil,Sea Freight,Standard,17535.82,5,In Transit,False,Joseph Khan,TRK-676,2025-06-16,2025-07-07,21,2025-06
+ORD-10096,Swift Logistics,Accra,Ghana,Road Freight,Standard,6385.37,3,Delivered,True,Peter Khan,TRK-702,2025-05-09,2025-05-13,4,2025-05
+ORD-10900,Global Logistics,Dubai,UAE,Air Freight,Standard,13752.98,7,Delivered,True,James Mensah,TRK-458,2025-01-28,2025-02-01,4,2025-01
+ORD-10260,Vision Retail,Port Harcourt,Nigeria,Air Freight,Standard,4826.49,10,Delivered,True,Daniel Smith,TRK-972,2025-03-03,2025-03-08,5,2025-03
+ORD-10350,Global Partners,Abuja,Nigeria,Sea Freight,Express,18340.94,12,Delivered,True,Samuel Musa,TRK-325,2025-05-25,2025-06-26,32,2025-05
+ORD-10528,Blue Partners,Mumbai,India,Road Freight,Express,5954.0,12,Delivered,True,Daniel Smith,TRK-114,2025-10-11,2025-10-15,4,2025-10
+ORD-10694,Nova Partners,Shanghai,China,Sea Freight,Express,22224.03,4,Delivered,False,Michael Okafor,TRK-903,2025-01-28,2025-02-25,28,2025-01
+ORD-10361,Blue Supplies,Hamburg,Germany,Road Freight,Same Day,3573.27,10,Delivered,True,James Brown,TRK-339,2025-09-05,2025-09-12,7,2025-09
+ORD-10611,Vision Logistics,Lagos,Nigeria,Sea Freight,Standard,26436.44,9,Delivered,True,Daniel Brown,TRK-826,2025-12-28,2026-01-21,24,2025-12
+ORD-10884,Elite Imports,Port Harcourt,Nigeria,Road Freight,Standard,6221.77,10,Delivered,False,Ibrahim Khan,TRK-170,2025-07-06,2025-07-14,8,2025-07
+ORD-10720,Swift Logistics,Nairobi,Kenya,Road Freight,Standard,7193.19,12,In Transit,False,Ibrahim Musa,TRK-210,2025-02-19,2025-03-03,12,2025-02
+ORD-10486,Elite Logistics,Lagos,Nigeria,Road Freight,Standard,7513.16,5,Delayed,False,John Musa,TRK-940,2026-03-13,2026-03-21,8,2026-03
+ORD-10693,Blue Logistics,São Paulo,Brazil,Rail Freight,Express,16556.09,14,Delivered,True,Joseph Cole,TRK-293,2025-07-13,2025-07-27,14,2025-07
+ORD-10678,Prime Logistics,Nairobi,Kenya,Rail Freight,Standard,10088.14,9,Delivered,True,Daniel Ali,TRK-927,2025-05-08,2025-05-16,8,2025-05
+ORD-10809,Vision Imports,Shanghai,China,Sea Freight,Standard,19015.5,12,Delivered,False,Ibrahim Brown,TRK-251,2025-11-19,2025-12-24,35,2025-11
+ORD-10408,Swift Logistics,Cairo,Egypt,Sea Freight,Express,23869.35,11,In Transit,False,James Ali,TRK-173,2025-08-26,2025-09-26,31,2025-08
+ORD-10740,Apex Holdings,Cairo,Egypt,Road Freight,Standard,7300.29,6,Delivered,True,James Ali,TRK-274,2025-09-09,2025-09-11,2,2025-09
+ORD-10213,Blue Partners,Nairobi,Kenya,Road Freight,Standard,4263.14,10,Delivered,False,James Okafor,TRK-938,2025-10-09,2025-10-11,2,2025-10
+ORD-10589,Elite Exports,New York,USA,Rail Freight,Standard,8539.93,3,Delivered,True,John Ojo,TRK-901,2025-01-15,2025-01-24,9,2025-01
+ORD-10365,Apex Industries,New York,USA,Sea Freight,Standard,23370.92,4,Delivered,True,David Ojo,TRK-791,2025-11-05,2025-12-07,32,2025-11
+ORD-10199,Metro Retail,São Paulo,Brazil,Air Freight,Bulk Contract,8713.65,12,Delivered,True,Ibrahim Okafor,TRK-482,2025-05-04,2025-05-06,2,2025-05
+ORD-10636,Elite Retail,Abuja,Nigeria,Road Freight,Standard,4033.84,6,Delivered,True,Samuel Musa,TRK-718,2025-05-13,2025-05-20,7,2025-05
+ORD-10628,Vision Partners,Abuja,Nigeria,Sea Freight,Standard,33708.01,9,Delivered,True,Daniel Ade,TRK-980,2025-01-12,2025-01-25,13,2025-01
+ORD-10828,Blue Holdings,Cairo,Egypt,Road Freight,Bulk Contract,6303.23,13,Delivered,False,Samuel Smith,TRK-194,2026-03-01,2026-03-07,6,2026-03
+ORD-10352,Metro Imports,Abuja,Nigeria,Air Freight,Express,5108.43,10,Delivered,True,Ibrahim Musa,TRK-245,2025-10-08,2025-10-09,1,2025-10
+ORD-10329,Apex Imports,Dubai,UAE,Air Freight,Express,9495.21,7,Delivered,True,Daniel Khan,TRK-833,2025-02-24,2025-02-25,1,2025-02
+ORD-10981,Elite Imports,Accra,Ghana,Sea Freight,Standard,25647.86,10,Delivered,True,Ibrahim Ade,TRK-608,2025-05-23,2025-06-17,25,2025-05
+ORD-10837,Titan Supplies,Hamburg,Germany,Road Freight,Same Day,8907.68,6,Delivered,True,Daniel Okafor,TRK-565,2025-09-12,2025-09-15,3,2025-09
+ORD-10244,Nova Holdings,Dubai,UAE,Road Freight,Standard,9036.85,11,Delayed,False,Peter Musa,TRK-799,2025-01-07,2025-01-18,11,2025-01
+ORD-10286,Elite Exports,São Paulo,Brazil,Sea Freight,Standard,24288.49,7,Delivered,True,David Ojo,TRK-277,2026-03-14,2026-04-15,32,2026-03
+ORD-10289,Titan Industries,Port Harcourt,Nigeria,Road Freight,Express,3338.54,12,In Transit,False,Ibrahim Smith,TRK-492,2025-02-21,2025-02-22,1,2025-02
+ORD-10598,Apex Industries,Cairo,Egypt,Road Freight,Bulk Contract,5964.65,10,Delayed,False,Daniel Ade,TRK-880,2025-12-24,2026-01-05,12,2025-12
+ORD-10761,Nova Exports,Abuja,Nigeria,Air Freight,Express,8433.79,4,Delivered,True,Daniel Ojo,TRK-398,2026-02-17,2026-02-18,1,2026-02
+ORD-10059,Titan Retail,Toronto,Canada,Air Freight,Standard,11857.06,11,Delivered,True,David Khan,TRK-403,2026-01-26,2026-01-28,2,2026-01
+ORD-10622,Nova Retail,London,UK,Air Freight,Standard,7376.81,3,Delivered,True,Peter Smith,TRK-699,2025-08-06,2025-08-10,4,2025-08
+ORD-10318,Vision Retail,Abuja,Nigeria,Air Freight,Express,11057.93,8,Delivered,True,David Brown,TRK-934,2026-03-13,2026-03-14,1,2026-03
+ORD-10010,Swift Partners,Toronto,Canada,Air Freight,Bulk Contract,12664.12,7,Delayed,False,John Smith,TRK-612,2026-01-29,2026-02-03,5,2026-01
+ORD-10237,Swift Logistics,Shanghai,China,Rail Freight,Standard,17757.39,7,Delivered,True,Ibrahim Smith,TRK-843,2025-05-09,2025-05-15,6,2025-05
+ORD-10331,Swift Exports,Dubai,UAE,Air Freight,Express,8918.12,5,Delivered,False,Samuel Okafor,TRK-496,2025-08-10,2025-08-13,3,2025-08
+ORD-10705,Nova Holdings,Hamburg,Germany,Road Freight,Bulk Contract,8390.75,10,Delivered,True,Ibrahim Khan,TRK-500,2025-06-19,2025-06-30,11,2025-06
+ORD-10086,Swift Supplies,Johannesburg,South Africa,Sea Freight,Standard,21460.29,9,Delivered,True,John Smith,TRK-907,2026-01-22,2026-02-24,33,2026-01
+ORD-10803,Prime Exports,Lagos,Nigeria,Road Freight,Express,6220.81,14,Delivered,True,Daniel Musa,TRK-493,2025-07-23,2025-07-29,6,2025-07
+ORD-10174,Titan Industries,Abuja,Nigeria,Air Freight,Standard,7203.89,7,Delivered,True,James Cole,TRK-840,2025-05-08,2025-05-09,1,2025-05
+ORD-10312,Vision Holdings,Lagos,Nigeria,Road Freight,Standard,8867.74,5,Delivered,True,David Musa,TRK-358,2026-03-05,2026-03-07,2,2026-03
+ORD-10462,Elite Supplies,London,UK,Sea Freight,Standard,30365.33,1,Delivered,True,Daniel Cole,TRK-907,2025-01-30,2025-02-12,13,2025-01
+ORD-10218,Vision Imports,Abuja,Nigeria,Sea Freight,Bulk Contract,33400.31,2,Delivered,True,Victor Ojo,TRK-456,2026-03-02,2026-04-04,33,2026-03
+ORD-10547,Vision Supplies,Johannesburg,South Africa,Air Freight,Express,10831.6,7,Delivered,True,Victor Ali,TRK-299,2025-04-24,2025-04-26,2,2025-04
+ORD-10664,Apex Imports,London,UK,Sea Freight,Standard,13532.14,10,Delivered,True,John Smith,TRK-667,2025-08-26,2025-09-22,27,2025-08
+ORD-10054,Nova Retail,Toronto,Canada,Sea Freight,Express,23802.85,7,Delivered,True,Peter Khan,TRK-950,2025-10-03,2025-11-04,32,2025-10
+ORD-10023,Titan Holdings,Hamburg,Germany,Air Freight,Express,7848.4,12,Delivered,True,Samuel Smith,TRK-568,2025-06-11,2025-06-13,2,2025-06
+ORD-10256,Titan Supplies,Nairobi,Kenya,Sea Freight,Express,20327.36,4,Delivered,True,Michael Musa,TRK-343,2025-01-05,2025-01-24,19,2025-01
+ORD-10450,Global Supplies,Shanghai,China,Sea Freight,Standard,24580.71,6,Delivered,True,Daniel Ojo,TRK-946,2026-01-16,2026-02-13,28,2026-01
+ORD-10003,Nova Industries,Mumbai,India,Air Freight,Standard,12948.03,11,Delivered,True,Joseph Khan,TRK-821,2025-07-13,2025-07-14,1,2025-07
+ORD-10833,Metro Exports,Accra,Ghana,Air Freight,Standard,6501.74,5,Delivered,True,David Brown,TRK-517,2025-07-23,2025-07-28,5,2025-07
+ORD-10552,Titan Retail,Dubai,UAE,Road Freight,Express,7994.73,3,Delivered,True,Daniel Musa,TRK-857,2025-04-06,2025-04-12,6,2025-04
+ORD-10638,Metro Exports,Shanghai,China,Rail Freight,Bulk Contract,20117.65,9,Delivered,True,James Ojo,TRK-880,2025-02-23,2025-03-02,7,2025-02
+ORD-10477,Blue Supplies,Port Harcourt,Nigeria,Road Freight,Bulk Contract,5852.13,12,Delivered,True,Daniel Cole,TRK-234,2025-12-20,2025-12-29,9,2025-12
+ORD-10956,Blue Retail,Port Harcourt,Nigeria,Sea Freight,Standard,26466.36,10,Delivered,True,David Brown,TRK-944,2025-08-05,2025-08-26,21,2025-08
+ORD-10662,Global Logistics,Mumbai,India,Air Freight,Standard,9161.19,1,Delivered,True,James Ali,TRK-201,2025-03-28,2025-03-29,1,2025-03
+ORD-10960,Swift Exports,Lagos,Nigeria,Road Freight,Bulk Contract,2437.26,10,Delivered,True,John Khan,TRK-540,2026-03-09,2026-03-17,8,2026-03
+ORD-10953,Swift Imports,London,UK,Air Freight,Standard,5072.81,3,Delivered,True,Ibrahim Cole,TRK-781,2025-04-28,2025-05-02,4,2025-04
+ORD-10979,Swift Supplies,Abuja,Nigeria,Sea Freight,Express,29392.4,8,Delivered,False,Joseph Ali,TRK-298,2025-01-11,2025-01-18,7,2025-01
+ORD-10575,Titan Exports,Cairo,Egypt,Sea Freight,Bulk Contract,15060.25,1,Delivered,True,Daniel Ali,TRK-237,2025-01-19,2025-01-30,11,2025-01
+ORD-10539,Global Retail,Nairobi,Kenya,Sea Freight,Express,32505.32,11,Delivered,True,Michael Okafor,TRK-122,2025-12-16,2026-01-11,26,2025-12
+ORD-10737,Prime Holdings,Hamburg,Germany,Sea Freight,Express,165057.1,10,Delivered,False,Ibrahim Cole,TRK-182,2025-11-05,2025-11-30,25,2025-11
+ORD-10998,Apex Imports,São Paulo,Brazil,Sea Freight,Standard,21814.35,4,Delivered,True,Joseph Musa,TRK-997,2025-07-07,2025-07-31,24,2025-07
+ORD-10713,Elite Supplies,London,UK,Sea Freight,Bulk Contract,36393.45,3,Delivered,False,Peter Okafor,TRK-873,2026-01-05,2026-01-21,16,2026-01
+ORD-10667,Blue Retail,São Paulo,Brazil,Rail Freight,Standard,12520.34,6,Delivered,False,John Mensah,TRK-856,2025-12-15,2025-12-26,11,2025-12
+ORD-10039,Vision Holdings,Accra,Ghana,Sea Freight,Standard,22642.33,1,Delivered,True,Joseph Khan,TRK-835,2025-05-06,2025-05-31,25,2025-05
+ORD-10231,Apex Logistics,Hamburg,Germany,Sea Freight,Bulk Contract,17101.92,8,In Transit,False,James Mensah,TRK-818,2025-12-14,2025-12-27,13,2025-12
+ORD-10494,Swift Logistics,São Paulo,Brazil,Road Freight,Standard,5602.26,8,Delayed,False,James Cole,TRK-127,2025-05-14,2025-05-23,9,2025-05
+ORD-10704,Apex Retail,Shanghai,China,Air Freight,Bulk Contract,8193.3,6,Delivered,True,Peter Cole,TRK-123,2026-02-19,2026-02-22,3,2026-02
+ORD-10967,Blue Imports,Shanghai,China,Road Freight,Standard,10759.82,1,Delivered,True,James Ojo,TRK-255,2025-01-05,2025-01-10,5,2025-01
+ORD-10066,Nova Retail,Nairobi,Kenya,Road Freight,Bulk Contract,4087.85,9,Delayed,False,Daniel Okafor,TRK-579,2025-02-06,2025-02-11,5,2025-02
+ORD-10294,Metro Imports,Lagos,Nigeria,Air Freight,Bulk Contract,11075.84,4,Delivered,True,James Brown,TRK-943,2025-01-30,2025-02-01,2,2025-01
+ORD-10067,Apex Industries,Toronto,Canada,Sea Freight,Standard,15564.03,14,Delivered,True,Joseph Smith,TRK-126,2025-10-04,2025-10-29,25,2025-10
+ORD-10479,Metro Partners,Shanghai,China,Road Freight,Standard,7025.58,9,Delivered,True,Daniel Ade,TRK-166,2025-04-04,2025-04-16,12,2025-04
+ORD-10328,Elite Industries,Abuja,Nigeria,Road Freight,Standard,6025.07,7,Delivered,False,David Ade,TRK-268,2026-03-01,2026-03-13,12,2026-03
+ORD-10626,Titan Supplies,Dubai,UAE,Sea Freight,Bulk Contract,8043.85,9,Delivered,False,Unknown,TRK-114,2025-12-20,2026-01-20,31,2025-12
+ORD-10107,Vision Partners,São Paulo,Brazil,Air Freight,Standard,8211.83,11,Delivered,True,Ibrahim Smith,TRK-320,2025-12-12,2025-12-13,1,2025-12
+ORD-10983,Vision Imports,Hamburg,Germany,Air Freight,Standard,9630.77,7,Delivered,True,David Mensah,TRK-512,2025-11-19,2025-11-20,1,2025-11
+ORD-10346,Prime Imports,London,UK,Air Freight,Standard,6297.34,10,In Transit,False,Michael Ali,TRK-955,2026-01-31,2026-02-05,5,2026-01
+ORD-10298,Metro Partners,Accra,Ghana,Road Freight,Bulk Contract,5514.23,4,Delivered,True,James Khan,TRK-577,2025-12-30,2026-01-11,12,2025-12
+ORD-10643,Apex Holdings,São Paulo,Brazil,Road Freight,Bulk Contract,2694.83,10,Delivered,False,Victor Smith,TRK-838,2025-11-20,2025-12-02,12,2025-11
+ORD-10307,Apex Holdings,Accra,Ghana,Sea Freight,Express,39120.26,8,Delivered,True,Ibrahim Ojo,TRK-492,2025-03-23,2025-04-16,24,2025-03
+ORD-10854,Vision Logistics,New York,USA,Air Freight,Bulk Contract,8668.42,4,Delivered,False,James Ali,TRK-316,2026-01-19,2026-01-24,5,2026-01
+ORD-10506,Prime Exports,Shanghai,China,Sea Freight,Standard,36526.83,5,Delivered,True,Victor Ali,TRK-323,2025-04-13,2025-05-12,29,2025-04
+ORD-10296,Blue Imports,São Paulo,Brazil,Sea Freight,Bulk Contract,25352.86,9,Delivered,True,Michael Khan,TRK-375,2025-01-15,2025-02-06,22,2025-01
+ORD-10666,Nova Retail,Port Harcourt,Nigeria,Road Freight,Standard,5615.8,13,Delivered,True,Samuel Ade,TRK-161,2025-10-12,2025-10-21,9,2025-10
+ORD-10100,Blue Holdings,Accra,Ghana,Sea Freight,Express,24504.51,10,Delivered,True,Daniel Khan,TRK-523,2025-12-26,2026-01-05,10,2025-12
+ORD-10088,Metro Supplies,Shanghai,China,Air Freight,Bulk Contract,9032.5,13,In Transit,False,Daniel Okafor,TRK-244,2026-02-17,2026-02-20,3,2026-02
+ORD-10063,Titan Logistics,Hamburg,Germany,Sea Freight,Standard,15066.25,5,Delivered,False,Joseph Okafor,TRK-881,2025-08-15,2025-09-03,19,2025-08
+ORD-10843,Metro Partners,Abuja,Nigeria,Rail Freight,Bulk Contract,10373.84,8,Delayed,False,Michael Ojo,TRK-217,2025-04-13,2025-04-28,15,2025-04
+ORD-10888,Prime Imports,Port Harcourt,Nigeria,Road Freight,Standard,4898.82,7,Delivered,True,David Ade,TRK-136,2025-08-10,2025-08-13,3,2025-08
+ORD-10139,Swift Logistics,New York,USA,Rail Freight,Bulk Contract,12244.31,6,Delivered,True,Samuel Cole,TRK-794,2025-11-23,2025-12-04,11,2025-11
+ORD-10757,Global Industries,Nairobi,Kenya,Sea Freight,Standard,21421.24,7,Delivered,True,James Musa,TRK-805,2025-03-16,2025-04-18,33,2025-03
+ORD-10615,Nova Partners,Dubai,UAE,Road Freight,Express,4996.51,2,Delivered,True,Peter Cole,TRK-232,2025-05-18,2025-05-26,8,2025-05
+ORD-10499,Vision Holdings,New York,USA,Road Freight,Standard,4971.88,10,Delivered,True,Peter Musa,TRK-799,2026-03-22,2026-03-30,8,2026-03
+ORD-10665,Prime Imports,Hamburg,Germany,Road Freight,Standard,8755.35,12,Delivered,True,Samuel Brown,TRK-653,2026-02-07,2026-02-11,4,2026-02
+ORD-10584,Blue Holdings,Cairo,Egypt,Sea Freight,Express,26163.28,11,Delivered,True,Ibrahim Smith,TRK-739,2025-06-04,2025-06-28,24,2025-06
+ORD-10109,Vision Holdings,Lagos,Nigeria,Air Freight,Standard,7786.59,8,Delivered,True,Samuel Mensah,TRK-489,2025-03-12,2025-03-15,3,2025-03
+ORD-10916,Swift Retail,Abuja,Nigeria,Air Freight,Standard,11382.84,9,Delivered,True,James Ali,TRK-169,2025-10-16,2025-10-19,3,2025-10
+ORD-10650,Vision Supplies,Port Harcourt,Nigeria,Road Freight,Bulk Contract,4797.44,11,Delivered,False,Peter Musa,TRK-512,2025-02-01,2025-02-09,8,2025-02
+ORD-10533,Nova Imports,São Paulo,Brazil,Road Freight,Standard,3669.57,12,Delivered,True,David Cole,TRK-443,2026-01-21,2026-01-27,6,2026-01
+ORD-10445,Apex Holdings,Toronto,Canada,Air Freight,Standard,11051.21,10,Delayed,False,James Ojo,TRK-863,2026-01-08,2026-01-17,9,2026-01
+ORD-10605,Titan Retail,Nairobi,Kenya,Rail Freight,Standard,7646.48,5,Delivered,True,Michael Cole,TRK-561,2025-08-03,2025-08-10,7,2025-08
+ORD-10136,Apex Partners,Johannesburg,South Africa,Road Freight,Standard,8093.69,8,Delivered,True,Ibrahim Brown,TRK-291,2025-05-20,2025-05-23,3,2025-05
+ORD-10811,Apex Supplies,São Paulo,Brazil,Air Freight,Standard,11298.07,5,Delivered,True,Unknown,TRK-844,2025-02-05,2025-02-07,2,2025-02
+ORD-10514,Global Partners,Shanghai,China,Road Freight,Standard,9630.77,3,Delivered,True,Joseph Ade,TRK-348,2025-02-06,2025-02-08,2,2025-02
+ORD-10753,Metro Holdings,Mumbai,India,Road Freight,Bulk Contract,7253.5,11,In Transit,False,Ibrahim Musa,TRK-976,2026-01-28,2026-02-08,11,2026-01
+ORD-10158,Metro Partners,Johannesburg,South Africa,Road Freight,Standard,7227.52,6,Delivered,True,Victor Ojo,TRK-252,2025-09-14,2025-09-16,2,2025-09
+ORD-10310,Blue Exports,London,UK,Sea Freight,Bulk Contract,16466.68,9,In Transit,False,Ibrahim Ade,TRK-333,2025-06-25,2025-07-20,25,2025-06
+ORD-10327,Nova Partners,New York,USA,Road Freight,Same Day,10632.05,8,Delivered,False,Peter Ojo,TRK-216,2025-01-28,2025-02-02,5,2025-01
+ORD-10935,Metro Holdings,London,UK,Sea Freight,Express,14260.07,7,Delivered,True,Joseph Ojo,TRK-386,2025-05-17,2025-06-03,17,2025-05
+ORD-10254,Global Industries,Abuja,Nigeria,Road Freight,Bulk Contract,6087.34,4,Delayed,False,Michael Smith,TRK-677,2025-06-09,2025-06-18,9,2025-06
+ORD-10275,Apex Logistics,Port Harcourt,Nigeria,Sea Freight,Express,22606.13,7,Delivered,False,Samuel Cole,TRK-425,2025-04-01,2025-05-03,32,2025-04
+ORD-10901,Titan Exports,São Paulo,Brazil,Sea Freight,Bulk Contract,17041.15,1,Delivered,True,Michael Ali,TRK-699,2026-01-29,2026-02-25,27,2026-01
+ORD-10184,Global Imports,São Paulo,Brazil,Road Freight,Express,6175.82,4,Delivered,True,Michael Okafor,TRK-203,2025-12-05,2025-12-10,5,2025-12
+ORD-10582,Titan Retail,Johannesburg,South Africa,Rail Freight,Standard,15579.0,17,Delivered,False,John Smith,TRK-687,2026-02-08,2026-02-14,6,2026-02
+ORD-10660,Global Partners,Shanghai,China,Road Freight,Bulk Contract,6101.97,10,Delivered,True,John Brown,TRK-547,2026-02-18,2026-02-28,10,2026-02
+ORD-10896,Prime Retail,Hamburg,Germany,Road Freight,Same Day,5711.76,10,Delivered,True,Victor Ojo,TRK-997,2026-01-17,2026-01-20,3,2026-01
+ORD-10209,Apex Retail,New York,USA,Sea Freight,Standard,30255.08,8,Delivered,True,Daniel Okafor,TRK-469,2025-09-10,2025-09-24,14,2025-09
+ORD-10168,Swift Logistics,São Paulo,Brazil,Sea Freight,Express,16221.52,6,Delivered,True,Victor Mensah,TRK-516,2025-07-31,2025-08-17,17,2025-07
+ORD-10866,Blue Logistics,Nairobi,Kenya,Road Freight,Standard,5965.04,6,Delivered,True,Peter Mensah,TRK-325,2026-01-25,2026-01-29,4,2026-01
+ORD-10280,Swift Holdings,São Paulo,Brazil,Rail Freight,Standard,13014.21,16,In Transit,False,Samuel Ade,TRK-203,2025-09-05,2025-09-21,16,2025-09
+ORD-10899,Vision Retail,São Paulo,Brazil,Road Freight,Standard,7936.81,8,Delivered,True,Unknown,TRK-115,2025-05-29,2025-06-09,11,2025-05
+ORD-10541,Vision Industries,London,UK,Sea Freight,Standard,19748.55,16,Delivered,True,James Ade,TRK-251,2026-02-09,2026-02-28,19,2026-02
+ORD-10055,Global Partners,São Paulo,Brazil,Air Freight,Bulk Contract,4203.07,7,Delivered,True,Peter Mensah,TRK-599,2025-08-26,2025-08-31,5,2025-08
+ORD-10120,Swift Industries,New York,USA,Sea Freight,Standard,16452.35,7,Delayed,False,James Ali,TRK-232,2025-11-05,2025-11-23,18,2025-11
+ORD-10554,Nova Holdings,New York,USA,Sea Freight,Standard,17633.62,15,Delivered,True,James Ojo,TRK-810,2025-02-04,2025-03-05,29,2025-02
+ORD-10025,Elite Logistics,São Paulo,Brazil,Sea Freight,Standard,24268.59,6,Delivered,True,Victor Smith,TRK-779,2025-10-06,2025-11-07,32,2025-10
+ORD-10072,Vision Partners,Hamburg,Germany,Road Freight,Express,6467.79,11,Delayed,False,David Ade,TRK-745,2025-04-15,2025-04-21,6,2025-04
+ORD-10538,Prime Exports,Abuja,Nigeria,Sea Freight,Standard,11103.93,6,In Transit,False,Daniel Mensah,TRK-995,2025-02-09,2025-02-22,13,2025-02
+ORD-10044,Vision Holdings,Port Harcourt,Nigeria,Air Freight,Standard,7675.6,10,Delivered,True,John Khan,TRK-952,2025-04-20,2025-04-21,1,2025-04
+ORD-10497,Vision Exports,Abuja,Nigeria,Rail Freight,Express,8494.33,6,Delayed,False,Michael Cole,TRK-851,2026-03-05,2026-03-23,18,2026-03
+ORD-10198,Titan Logistics,New York,USA,Sea Freight,Standard,10008.06,13,Delivered,True,Victor Ali,TRK-925,2025-01-07,2025-01-17,10,2025-01
+ORD-10377,Elite Retail,Abuja,Nigeria,Air Freight,Standard,6626.5,18,Delivered,False,Joseph Ade,TRK-892,2025-01-20,2025-01-24,4,2025-01
+ORD-10314,Vision Imports,Port Harcourt,Nigeria,Sea Freight,Bulk Contract,22390.07,12,Delivered,True,Joseph Khan,TRK-896,2025-11-13,2025-11-26,13,2025-11
+ORD-10718,Prime Holdings,Dubai,UAE,Road Freight,Bulk Contract,5552.36,14,Delayed,False,James Ojo,TRK-153,2025-11-25,2025-12-14,19,2025-11
+ORD-10208,Prime Imports,Johannesburg,South Africa,Road Freight,Express,8792.07,8,Delayed,False,Joseph Musa,TRK-273,2026-03-19,2026-03-30,11,2026-03
+ORD-10721,Blue Supplies,Shanghai,China,Sea Freight,Express,23267.15,2,Delivered,False,Peter Brown,TRK-277,2025-04-17,2025-05-12,25,2025-04
+ORD-10918,Prime Partners,Hamburg,Germany,Sea Freight,Express,13993.92,8,Delivered,True,Daniel Brown,TRK-878,2025-01-24,2025-01-31,7,2025-01
+ORD-10535,Prime Partners,Johannesburg,South Africa,Air Freight,Express,8882.7,9,Delivered,False,Joseph Khan,TRK-871,2025-12-30,2025-12-31,1,2025-12
+ORD-10695,Swift Industries,Dubai,UAE,Road Freight,Express,6827.95,5,Delivered,True,Peter Musa,TRK-811,2025-07-18,2025-07-27,9,2025-07
+ORD-10604,Apex Exports,Nairobi,Kenya,Road Freight,Standard,9630.77,14,Delayed,False,Ibrahim Khan,TRK-714,2026-02-05,2026-02-15,10,2026-02
+ORD-10590,Metro Supplies,Lagos,Nigeria,Air Freight,Bulk Contract,9449.74,13,Delivered,False,Ibrahim Mensah,TRK-341,2025-06-02,2025-06-03,1,2025-06
+ORD-10290,Apex Logistics,New York,USA,Sea Freight,Express,24369.47,6,Delivered,True,Ibrahim Brown,TRK-807,2025-05-22,2025-06-12,21,2025-05
+ORD-10959,Prime Imports,Johannesburg,South Africa,Road Freight,Standard,5697.34,6,Delivered,True,James Ojo,TRK-449,2025-04-01,2025-04-11,10,2025-04
+ORD-10332,Blue Retail,New York,USA,Road Freight,Bulk Contract,4716.88,8,Delivered,False,Ibrahim Brown,TRK-401,2025-07-16,2025-07-24,8,2025-07
+ORD-10210,Apex Industries,Accra,Ghana,Rail Freight,Express,19212.62,15,Delivered,True,Joseph Ali,TRK-923,2025-11-12,2025-11-18,6,2025-11
+ORD-10342,Elite Supplies,Mumbai,India,Road Freight,Standard,3800.17,10,Delayed,False,Victor Mensah,TRK-525,2025-06-12,2025-06-25,13,2025-06
+ORD-10060,Titan Exports,Nairobi,Kenya,Sea Freight,Standard,27537.22,4,Delivered,True,Daniel Okafor,TRK-993,2025-03-06,2025-03-24,18,2025-03
+ORD-10344,Metro Holdings,New York,USA,Sea Freight,Standard,26976.72,9,Delivered,False,David Ali,TRK-362,2025-11-15,2025-12-02,17,2025-11
+ORD-10890,Elite Partners,Nairobi,Kenya,Air Freight,Standard,27421.05,7,Delivered,True,James Khan,TRK-274,2025-12-28,2026-01-02,5,2025-12
+ORD-10711,Titan Holdings,Lagos,Nigeria,Road Freight,Standard,5343.09,4,Delayed,False,Joseph Mensah,TRK-525,2025-08-22,2025-09-05,14,2025-08
+ORD-10467,Metro Partners,Dubai,UAE,Rail Freight,Express,13540.05,5,Delivered,True,Ibrahim Ade,TRK-955,2025-09-04,2025-09-08,4,2025-09
+ORD-10423,Metro Exports,New York,USA,Sea Freight,Express,24024.18,17,Delayed,False,Victor Cole,TRK-553,2025-03-27,2025-05-06,40,2025-03
+ORD-10259,Prime Imports,Johannesburg,South Africa,Rail Freight,Standard,12347.66,11,Delayed,False,Samuel Cole,TRK-211,2025-06-17,2025-07-02,15,2025-06
+ORD-10780,Elite Imports,Toronto,Canada,Sea Freight,Standard,21850.43,5,Delivered,True,James Okafor,TRK-412,2025-08-28,2025-09-23,26,2025-08
+ORD-10405,Elite Retail,Cairo,Egypt,Road Freight,Standard,5663.63,6,Delayed,False,Ibrahim Khan,TRK-973,2025-11-10,2025-11-26,16,2025-11
+ORD-10788,Blue Partners,London,UK,Sea Freight,Standard,10694.08,12,Delivered,True,Ibrahim Brown,TRK-406,2025-09-07,2025-09-17,10,2025-09
+ORD-10767,Apex Partners,Johannesburg,South Africa,Air Freight,Bulk Contract,7834.91,1,Delayed,False,David Musa,TRK-957,2025-04-05,2025-04-17,12,2025-04
+ORD-10483,Nova Supplies,Hamburg,Germany,Road Freight,Standard,4782.49,15,Delivered,True,Joseph Ali,TRK-435,2025-08-16,2025-08-20,4,2025-08
+ORD-10530,Prime Partners,Dubai,UAE,Road Freight,Standard,7389.06,1,Delivered,True,Daniel Khan,TRK-185,2025-07-21,2025-07-30,9,2025-07
+ORD-10810,Swift Retail,São Paulo,Brazil,Sea Freight,Standard,22792.89,2,Delivered,True,John Smith,TRK-266,2026-02-22,2026-03-09,15,2026-02
+ORD-10999,Blue Logistics,São Paulo,Brazil,Rail Freight,Standard,11429.27,5,Delivered,True,Joseph Smith,TRK-436,2026-01-18,2026-01-23,5,2026-01
+ORD-10966,Elite Industries,Toronto,Canada,Sea Freight,Express,18742.83,7,Delivered,True,Michael Musa,TRK-776,2025-06-11,2025-06-20,9,2025-06
+ORD-10110,Global Holdings,London,UK,Road Freight,Standard,10166.39,1,Delayed,False,John Ojo,TRK-179,2026-02-17,2026-02-26,9,2026-02
+ORD-10995,Vision Industries,Port Harcourt,Nigeria,Sea Freight,Standard,27602.87,11,Delivered,True,James Musa,TRK-878,2025-01-27,2025-02-10,14,2025-01
+ORD-10558,Swift Supplies,Hamburg,Germany,Sea Freight,Standard,38823.91,7,Delivered,True,Michael Mensah,TRK-615,2025-05-25,2025-06-15,21,2025-05
+ORD-10793,Prime Retail,Accra,Ghana,Sea Freight,Express,23235.09,6,Delivered,True,Michael Ali,TRK-303,2025-03-20,2025-04-19,30,2025-03
+ORD-10936,Blue Supplies,Abuja,Nigeria,Sea Freight,Standard,19843.76,11,In Transit,False,Peter Mensah,TRK-136,2025-04-29,2025-05-18,19,2025-04
+ORD-10919,Apex Holdings,Nairobi,Kenya,Rail Freight,Bulk Contract,11883.7,7,Delivered,False,David Ade,TRK-726,2025-05-02,2025-05-08,6,2025-05
+ORD-10942,Nova Logistics,Mumbai,India,Sea Freight,Standard,21815.16,9,Delivered,True,David Smith,TRK-682,2025-11-12,2025-11-30,18,2025-11
+ORD-10319,Vision Holdings,Johannesburg,South Africa,Air Freight,Standard,5775.1,2,In Transit,False,Samuel Okafor,TRK-235,2025-05-20,2025-05-24,4,2025-05
+ORD-10516,Apex Industries,Hamburg,Germany,Road Freight,Standard,6718.6,10,Delayed,False,David Cole,TRK-658,2025-08-07,2025-08-22,15,2025-08
+ORD-10449,Apex Holdings,São Paulo,Brazil,Rail Freight,Standard,16222.78,4,Delivered,False,John Cole,TRK-852,2025-12-19,2025-12-29,10,2025-12
+ORD-10783,Elite Logistics,Nairobi,Kenya,Rail Freight,Express,12234.47,10,Delivered,True,Joseph Ojo,TRK-272,2025-12-26,2026-01-05,10,2025-12
+ORD-10593,Prime Industries,Port Harcourt,Nigeria,Sea Freight,Standard,15122.59,7,Delivered,True,Victor Ali,TRK-586,2026-03-18,2026-04-15,28,2026-03
+ORD-10909,Titan Logistics,Toronto,Canada,Rail Freight,Standard,11261.04,4,Delayed,False,Daniel Cole,TRK-804,2025-11-24,2025-12-15,21,2025-11
+ORD-10743,Global Retail,Abuja,Nigeria,Sea Freight,Standard,12071.44,1,Delivered,True,John Cole,TRK-908,2025-09-02,2025-09-27,25,2025-09
+ORD-10137,Apex Exports,Dubai,UAE,Road Freight,Standard,4233.28,9,Delayed,False,Victor Smith,TRK-428,2025-05-17,2025-05-27,10,2025-05
+ORD-10799,Prime Supplies,Mumbai,India,Sea Freight,Express,9630.77,5,Delivered,True,Samuel Cole,TRK-223,2025-07-10,2025-07-24,14,2025-07
+ORD-10933,Blue Retail,Lagos,Nigeria,Air Freight,Standard,11581.37,12,Delivered,True,Samuel Cole,TRK-507,2025-01-23,2025-01-26,3,2025-01
+ORD-10822,Prime Imports,Nairobi,Kenya,Sea Freight,Express,14563.25,9,Delivered,True,Peter Ade,TRK-308,2025-10-23,2025-11-23,31,2025-10
+ORD-10765,Vision Imports,Shanghai,China,Road Freight,Standard,6253.6,1,Delivered,True,John Cole,TRK-686,2025-07-08,2025-07-10,2,2025-07
+ORD-10261,Metro Exports,Abuja,Nigeria,Air Freight,Bulk Contract,7343.44,10,Delivered,True,David Khan,TRK-464,2025-12-27,2026-01-01,5,2025-12
+ORD-10567,Titan Logistics,Abuja,Nigeria,Road Freight,Standard,5560.52,11,Delivered,True,David Brown,TRK-605,2025-09-24,2025-09-28,4,2025-09
+ORD-10832,Vision Logistics,São Paulo,Brazil,Air Freight,Standard,12242.49,7,In Transit,False,John Brown,TRK-195,2025-10-17,2025-10-18,1,2025-10
+ORD-10333,Metro Imports,Dubai,UAE,Road Freight,Standard,5541.04,14,Delivered,True,Michael Khan,TRK-739,2026-01-19,2026-01-29,10,2026-01
+ORD-10536,Prime Industries,Toronto,Canada,Road Freight,Standard,6138.28,2,Delayed,False,Peter Ojo,TRK-597,2025-09-15,2025-10-02,17,2025-09
+ORD-10351,Metro Logistics,Port Harcourt,Nigeria,Road Freight,Express,4732.18,2,Delayed,False,Victor Musa,TRK-244,2025-06-01,2025-06-16,15,2025-06
+ORD-10785,Prime Retail,Cairo,Egypt,Air Freight,Same Day,10985.66,2,Delivered,False,James Ojo,TRK-400,2025-12-14,2025-12-16,2,2025-12
+ORD-10451,Global Imports,São Paulo,Brazil,Air Freight,Same Day,9071.86,13,Delivered,True,James Ojo,TRK-507,2025-07-22,2025-07-23,1,2025-07
+ORD-10078,Global Exports,Lagos,Nigeria,Air Freight,Same Day,13664.44,9,Delivered,True,Ibrahim Mensah,TRK-176,2025-02-21,2025-02-25,4,2025-02
+ORD-10029,Blue Supplies,Port Harcourt,Nigeria,Sea Freight,Standard,24318.84,11,Delivered,False,Peter Musa,TRK-995,2026-02-12,2026-02-23,11,2026-02
+ORD-10712,Global Imports,Nairobi,Kenya,Air Freight,Express,6387.98,1,Delivered,True,Samuel Smith,TRK-743,2025-07-16,2025-07-17,1,2025-07
+ORD-10277,Titan Supplies,Toronto,Canada,Road Freight,Express,6607.68,6,Delivered,True,John Ade,TRK-495,2025-01-06,2025-01-11,5,2025-01
+ORD-10657,Metro Logistics,Shanghai,China,Road Freight,Standard,6018.63,2,Delivered,True,Daniel Smith,TRK-761,2025-11-16,2025-11-24,8,2025-11
+ORD-10306,Swift Industries,Hamburg,Germany,Road Freight,Same Day,6503.94,3,Delivered,True,John Ade,TRK-562,2026-03-18,2026-03-22,4,2026-03
+ORD-10165,Titan Retail,Accra,Ghana,Road Freight,Express,5977.96,4,Delivered,False,David Cole,TRK-792,2025-09-03,2025-09-07,4,2025-09
+ORD-10816,Blue Supplies,Accra,Ghana,Sea Freight,Bulk Contract,17495.15,12,Delivered,True,James Brown,TRK-178,2026-01-02,2026-01-15,13,2026-01
+ORD-10178,Nova Partners,Nairobi,Kenya,Road Freight,Standard,5966.68,6,Delivered,True,David Musa,TRK-556,2025-09-24,2025-10-03,9,2025-09
+ORD-10485,Titan Holdings,Accra,Ghana,Sea Freight,Express,22896.73,5,Delivered,True,Peter Okafor,TRK-696,2025-12-15,2026-01-02,18,2025-12
+ORD-10065,Nova Imports,Lagos,Nigeria,Sea Freight,Express,11145.36,8,Delivered,True,Ibrahim Okafor,TRK-657,2025-08-21,2025-08-30,9,2025-08
+ORD-10141,Global Exports,Dubai,UAE,Road Freight,Express,8854.83,3,Delivered,True,Daniel Musa,TRK-496,2025-07-23,2025-07-27,4,2025-07
+ORD-10436,Elite Retail,Toronto,Canada,Road Freight,Standard,3517.23,5,Delivered,True,Victor Ojo,TRK-737,2025-06-19,2025-06-24,5,2025-06
+ORD-10522,Vision Partners,Dubai,UAE,Road Freight,Express,5689.27,11,Delivered,True,Samuel Mensah,TRK-786,2025-04-10,2025-04-12,2,2025-04
+ORD-10844,Nova Logistics,Accra,Ghana,Sea Freight,Standard,23983.02,6,In Transit,False,Joseph Ali,TRK-163,2025-03-16,2025-04-15,30,2025-03
+ORD-10404,Apex Holdings,Accra,Ghana,Road Freight,Express,8260.36,4,Delivered,True,Michael Smith,TRK-181,2025-04-07,2025-04-12,5,2025-04
+ORD-10679,Global Industries,Lagos,Nigeria,Road Freight,Express,3337.96,8,Delivered,True,Victor Khan,TRK-174,2025-05-09,2025-05-13,4,2025-05
+ORD-10265,Metro Imports,Port Harcourt,Nigeria,Rail Freight,Standard,14235.07,1,Delivered,True,Samuel Smith,TRK-386,2025-09-12,2025-09-17,5,2025-09
+ORD-10879,Prime Retail,São Paulo,Brazil,Road Freight,Standard,8902.1,13,Delayed,False,Peter Cole,TRK-910,2025-01-23,2025-01-28,5,2025-01
+ORD-10292,Prime Imports,Nairobi,Kenya,Air Freight,Same Day,9454.67,8,Delivered,True,Daniel Khan,TRK-943,2026-02-27,2026-03-02,3,2026-02
+ORD-10221,Prime Supplies,Hamburg,Germany,Road Freight,Standard,2278.6,7,Delivered,True,Victor Mensah,TRK-474,2025-01-03,2025-01-08,5,2025-01
+ORD-10827,Elite Exports,Mumbai,India,Road Freight,Standard,6609.27,6,Delivered,True,John Ali,TRK-952,2025-01-31,2025-02-12,12,2025-01
+ORD-10235,Metro Logistics,Nairobi,Kenya,Sea Freight,Standard,20074.64,1,Delivered,True,John Okafor,TRK-741,2025-10-08,2025-11-05,28,2025-10
+ORD-10525,Vision Partners,Mumbai,India,Air Freight,Standard,7436.09,9,Delivered,True,John Ali,TRK-248,2025-07-31,2025-08-02,2,2025-07
+ORD-10192,Apex Imports,São Paulo,Brazil,Air Freight,Express,7102.17,8,Delivered,True,Victor Brown,TRK-894,2026-01-22,2026-01-25,3,2026-01
+ORD-10321,Vision Supplies,Mumbai,India,Sea Freight,Standard,20182.86,1,Delivered,False,Ibrahim Ojo,TRK-147,2026-03-06,2026-04-08,33,2026-03
+ORD-10049,Global Logistics,Abuja,Nigeria,Sea Freight,Express,22035.79,7,Delivered,True,Michael Khan,TRK-959,2025-06-29,2025-07-13,14,2025-06
+ORD-10891,Apex Industries,Johannesburg,South Africa,Road Freight,Standard,3291.5,11,Delivered,False,John Mensah,TRK-370,2025-08-22,2025-08-26,4,2025-08
+ORD-10002,Prime Industries,Cairo,Egypt,Sea Freight,Standard,20360.93,7,In Transit,False,Peter Cole,TRK-370,2025-06-22,2025-07-05,13,2025-06
+ORD-10370,Swift Logistics,Port Harcourt,Nigeria,Sea Freight,Express,9113.88,2,Delivered,True,Ibrahim Musa,TRK-530,2026-02-06,2026-03-02,24,2026-02
+ORD-10921,Swift Holdings,Port Harcourt,Nigeria,Rail Freight,Express,10079.46,8,Delivered,True,Victor Khan,TRK-188,2025-05-10,2025-05-20,10,2025-05
+ORD-10249,Titan Supplies,Lagos,Nigeria,Air Freight,Same Day,6810.95,2,Delivered,True,John Brown,TRK-926,2026-02-05,2026-02-08,3,2026-02
+ORD-10548,Apex Industries,Dubai,UAE,Sea Freight,Express,22550.45,1,In Transit,False,Ibrahim Brown,TRK-112,2025-12-08,2025-12-27,19,2025-12
+ORD-10432,Nova Imports,London,UK,Sea Freight,Express,17710.48,6,Delayed,False,Victor Cole,TRK-853,2025-09-04,2025-10-05,31,2025-09
+ORD-10938,Apex Exports,Accra,Ghana,Road Freight,Standard,4988.1,7,Delivered,True,Ibrahim Musa,TRK-153,2025-07-15,2025-07-23,8,2025-07
+ORD-10507,Titan Partners,Hamburg,Germany,Road Freight,Bulk Contract,9124.73,8,Delivered,True,John Ojo,TRK-252,2025-02-22,2025-02-24,2,2025-02
+ORD-10033,Global Supplies,Abuja,Nigeria,Rail Freight,Standard,11747.96,12,Delivered,False,James Mensah,TRK-694,2025-07-24,2025-08-08,15,2025-07
+ORD-10204,Prime Industries,Toronto,Canada,Road Freight,Standard,6216.53,10,In Transit,False,Joseph Cole,TRK-709,2025-01-28,2025-01-31,3,2025-01
+ORD-10889,Apex Supplies,Hamburg,Germany,Sea Freight,Standard,18994.88,5,Delivered,True,Michael Smith,TRK-607,2025-04-26,2025-05-25,29,2025-04
+ORD-10588,Vision Partners,New York,USA,Road Freight,Standard,2952.68,7,Delivered,True,Victor Ali,TRK-532,2025-04-09,2025-04-11,2,2025-04
+ORD-10730,Blue Imports,London,UK,Road Freight,Bulk Contract,5750.78,3,Delivered,True,Ibrahim Mensah,TRK-720,2025-02-10,2025-02-18,8,2025-02
+ORD-10077,Vision Holdings,Nairobi,Kenya,Rail Freight,Standard,13025.75,5,Delivered,True,Ibrahim Mensah,TRK-607,2026-03-15,2026-04-01,17,2026-03
+ORD-10084,Nova Retail,Shanghai,China,Sea Freight,Same Day,20282.28,4,Delayed,False,James Ade,TRK-949,2025-02-24,2025-03-18,22,2025-02
+ORD-10305,Swift Exports,Hamburg,Germany,Air Freight,Bulk Contract,10635.91,7,Delivered,True,Michael Brown,TRK-519,2026-03-21,2026-03-25,4,2026-03
+ORD-10082,Vision Retail,Port Harcourt,Nigeria,Air Freight,Bulk Contract,11408.44,9,Delivered,False,Daniel Smith,TRK-782,2025-05-04,2025-05-08,4,2025-05
+ORD-10448,Blue Imports,Dubai,UAE,Air Freight,Standard,8582.2,8,Delivered,False,Michael Okafor,TRK-281,2026-01-27,2026-01-28,1,2026-01
+ORD-10997,Vision Partners,Shanghai,China,Sea Freight,Standard,24460.14,12,Delivered,True,James Okafor,TRK-671,2025-05-23,2025-06-24,32,2025-05
+ORD-10751,Prime Supplies,São Paulo,Brazil,Sea Freight,Standard,16272.61,7,Delivered,True,Ibrahim Ade,TRK-264,2025-05-04,2025-05-21,17,2025-05
+ORD-10531,Prime Logistics,London,UK,Road Freight,Express,8067.78,1,Delivered,True,Daniel Smith,TRK-265,2025-04-22,2025-04-24,2,2025-04
+ORD-10495,Titan Retail,Accra,Ghana,Sea Freight,Standard,23458.68,1,Delivered,True,John Okafor,TRK-718,2026-02-06,2026-02-24,18,2026-02
+ORD-10910,Vision Logistics,Nairobi,Kenya,Air Freight,Standard,8671.86,8,Delivered,True,Victor Ojo,TRK-500,2025-03-03,2025-03-08,5,2025-03
+ORD-10005,Swift Partners,Nairobi,Kenya,Road Freight,Express,5165.85,6,Delivered,True,Ibrahim Smith,TRK-755,2025-02-06,2025-02-14,8,2025-02
+ORD-10490,Blue Retail,London,UK,Sea Freight,Bulk Contract,192504.2,9,Delivered,True,Ibrahim Musa,TRK-690,2025-04-26,2025-05-11,15,2025-04
+ORD-10097,Vision Industries,Johannesburg,South Africa,Air Freight,Standard,9432.95,9,Delivered,True,Victor Cole,TRK-211,2025-08-04,2025-08-09,5,2025-08
+ORD-10422,Elite Holdings,Toronto,Canada,Sea Freight,Standard,23165.17,9,Delivered,True,David Cole,TRK-466,2025-12-03,2025-12-20,17,2025-12
+ORD-10885,Prime Supplies,Accra,Ghana,Sea Freight,Express,22305.22,14,In Transit,False,Michael Ade,TRK-571,2025-10-23,2025-11-21,29,2025-10
+ORD-10281,Titan Imports,Johannesburg,South Africa,Sea Freight,Standard,28097.87,6,Delivered,True,David Ade,TRK-502,2026-01-05,2026-02-07,33,2026-01
+ORD-10266,Elite Partners,Dubai,UAE,Road Freight,Standard,5881.06,3,Delivered,True,John Okafor,TRK-386,2025-05-06,2025-05-18,12,2025-05
+ORD-10442,Blue Holdings,São Paulo,Brazil,Sea Freight,Standard,26773.24,15,Delivered,True,Michael Cole,TRK-256,2025-09-24,2025-10-25,31,2025-09
+ORD-10745,Apex Holdings,Johannesburg,South Africa,Sea Freight,Bulk Contract,18136.99,18,In Transit,False,Joseph Ade,TRK-464,2026-02-23,2026-03-12,17,2026-02
+ORD-10382,Vision Partners,London,UK,Road Freight,Express,8068.69,5,Delivered,True,Joseph Ade,TRK-593,2025-07-13,2025-07-22,9,2025-07
+ORD-10692,Swift Holdings,Mumbai,India,Road Freight,Standard,7335.77,9,Delivered,True,David Okafor,TRK-247,2025-08-22,2025-08-27,5,2025-08
+ORD-10893,Prime Supplies,Lagos,Nigeria,Road Freight,Same Day,5443.42,4,Delayed,False,James Brown,TRK-563,2025-09-26,2025-10-09,13,2025-09
+ORD-10118,Blue Partners,Dubai,UAE,Air Freight,Bulk Contract,3937.14,8,Delivered,True,Daniel Musa,TRK-635,2026-01-01,2026-01-02,1,2026-01
+ORD-10388,Swift Partners,Hamburg,Germany,Air Freight,Standard,7182.16,7,Delivered,True,David Musa,TRK-571,2025-10-04,2025-10-05,1,2025-10
+ORD-10250,Metro Logistics,Cairo,Egypt,Sea Freight,Standard,28483.24,15,Delivered,True,Daniel Cole,TRK-270,2025-10-23,2025-11-22,30,2025-10
+ORD-10943,Metro Partners,New York,USA,Sea Freight,Standard,16332.78,9,Delivered,True,Victor Khan,TRK-518,2025-08-25,2025-09-04,10,2025-08
+ORD-10453,Vision Logistics,Toronto,Canada,Sea Freight,Standard,12481.01,10,Delivered,True,Samuel Ojo,TRK-704,2025-12-23,2026-01-19,27,2025-12
+ORD-10009,Vision Retail,Abuja,Nigeria,Air Freight,Standard,6729.94,2,Delivered,True,Victor Ade,TRK-796,2025-11-02,2025-11-03,1,2025-11
+ORD-10196,Elite Logistics,Mumbai,India,Sea Freight,Standard,12758.37,15,Delivered,False,David Ade,TRK-882,2025-04-05,2025-05-02,27,2025-04
+ORD-10081,Blue Holdings,Accra,Ghana,Rail Freight,Standard,16055.08,4,Delayed,False,Joseph Mensah,TRK-274,2025-05-31,2025-06-14,14,2025-05
+ORD-10398,Prime Partners,Shanghai,China,Air Freight,Express,8901.11,10,Delivered,True,Victor Ade,TRK-126,2026-01-16,2026-01-17,1,2026-01
+ORD-10501,Blue Industries,Abuja,Nigeria,Sea Freight,Express,22417.41,5,Delivered,True,Samuel Brown,TRK-660,2025-12-12,2026-01-13,32,2025-12
+ORD-10634,Vision Retail,Toronto,Canada,Road Freight,Express,4676.05,12,Delivered,True,Michael Khan,TRK-670,2025-04-13,2025-04-14,1,2025-04
+ORD-10239,Blue Holdings,Lagos,Nigeria,Road Freight,Bulk Contract,11541.99,12,In Transit,False,David Okafor,TRK-205,2025-08-05,2025-08-09,4,2025-08
+ORD-10309,Titan Retail,São Paulo,Brazil,Sea Freight,Standard,25367.06,8,Delivered,True,Daniel Musa,TRK-710,2025-10-29,2025-11-17,19,2025-10
+ORD-10211,Metro Imports,Shanghai,China,Sea Freight,Standard,20257.25,11,Delayed,False,Daniel Brown,TRK-281,2026-03-17,2026-04-22,36,2026-03
+ORD-10834,Vision Logistics,São Paulo,Brazil,Road Freight,Standard,7513.12,10,Delayed,False,James Mensah,TRK-255,2025-03-18,2025-03-26,8,2025-03
+ORD-10380,Titan Imports,Lagos,Nigeria,Road Freight,Standard,4963.85,8,Delivered,False,Joseph Khan,TRK-565,2025-05-26,2025-06-05,10,2025-05
+ORD-10601,Swift Holdings,Toronto,Canada,Air Freight,Standard,9305.74,10,Delivered,True,Ibrahim Cole,TRK-329,2025-06-17,2025-06-20,3,2025-06
+ORD-10227,Prime Retail,London,UK,Sea Freight,Express,18288.2,4,Delivered,True,Victor Brown,TRK-655,2026-01-31,2026-03-04,32,2026-01
+ORD-10873,Nova Supplies,Johannesburg,South Africa,Road Freight,Express,7755.36,10,Delivered,True,Joseph Ali,TRK-798,2025-11-05,2025-11-07,2,2025-11
+ORD-10359,Nova Retail,São Paulo,Brazil,Rail Freight,Standard,10727.36,7,Delayed,False,Samuel Ojo,TRK-613,2025-07-07,2025-07-21,14,2025-07
+ORD-10813,Metro Supplies,Port Harcourt,Nigeria,Rail Freight,Express,10434.37,13,Delayed,False,Michael Mensah,TRK-591,2025-01-05,2025-01-27,22,2025-01
+ORD-10177,Nova Supplies,Nairobi,Kenya,Road Freight,Express,5965.77,3,Delayed,False,John Musa,TRK-617,2025-09-27,2025-10-10,13,2025-09
+ORD-10994,Blue Supplies,Accra,Ghana,Rail Freight,Express,9754.81,9,Delivered,True,Joseph Mensah,TRK-246,2025-08-31,2025-09-07,7,2025-08
+ORD-10756,Vision Industries,New York,USA,Rail Freight,Standard,94911.2,1,Delivered,True,Samuel Smith,TRK-957,2025-10-30,2025-11-07,8,2025-10
+ORD-10493,Titan Retail,London,UK,Road Freight,Standard,8706.12,11,Delivered,True,Samuel Ade,TRK-811,2025-08-29,2025-09-09,11,2025-08
+ORD-10334,Elite Industries,Toronto,Canada,Sea Freight,Standard,3443.21,12,Delivered,False,David Brown,TRK-675,2025-12-30,2026-01-29,30,2025-12
+ORD-10892,Blue Partners,São Paulo,Brazil,Air Freight,Express,92061.0,2,Delayed,False,David Ade,TRK-938,2025-11-01,2025-11-08,7,2025-11
+ORD-10007,Vision Exports,São Paulo,Brazil,Rail Freight,Bulk Contract,5962.79,5,Delivered,True,James Mensah,TRK-352,2025-12-02,2025-12-14,12,2025-12
+ORD-10155,Vision Retail,Dubai,UAE,Rail Freight,Standard,11238.12,12,Delivered,True,Victor Ade,TRK-967,2025-01-26,2025-02-04,9,2025-01
+ORD-10842,Vision Supplies,Abuja,Nigeria,Sea Freight,Bulk Contract,13746.72,12,Delivered,True,David Mensah,TRK-849,2025-06-28,2025-07-22,24,2025-06
+ORD-10750,Prime Retail,Toronto,Canada,Air Freight,Standard,10945.9,5,Delivered,True,Victor Ojo,TRK-272,2026-03-15,2026-03-20,5,2026-03
+ORD-10941,Global Retail,Hamburg,Germany,Road Freight,Express,3778.17,5,Delivered,False,James Okafor,TRK-355,2025-07-15,2025-07-21,6,2025-07
+ORD-10482,Swift Supplies,Nairobi,Kenya,Road Freight,Express,5838.48,13,Delayed,False,Joseph Ojo,TRK-217,2025-08-11,2025-08-26,15,2025-08
+ORD-10846,Titan Exports,Port Harcourt,Nigeria,Air Freight,Standard,11178.24,2,Delivered,False,John Okafor,TRK-538,2025-12-31,2026-01-04,4,2025-12
+ORD-10749,Prime Holdings,Abuja,Nigeria,Sea Freight,Bulk Contract,29168.44,10,In Transit,False,Unknown,TRK-299,2025-09-01,2025-10-02,31,2025-09
+ORD-10903,Titan Exports,Hamburg,Germany,Sea Freight,Express,23869.89,10,Delivered,True,Ibrahim Musa,TRK-304,2025-06-15,2025-07-17,32,2025-06
+ORD-10591,Titan Partners,Abuja,Nigeria,Road Freight,Standard,7652.97,1,Delivered,False,David Khan,TRK-714,2025-12-07,2025-12-18,11,2025-12
+ORD-10952,Apex Industries,Mumbai,India,Road Freight,Standard,5806.86,9,Delivered,True,David Brown,TRK-673,2026-01-19,2026-01-22,3,2026-01
+ORD-10580,Global Partners,Lagos,Nigeria,Sea Freight,Standard,4504.16,17,Delivered,True,Joseph Ade,TRK-424,2025-08-05,2025-09-02,28,2025-08
+ORD-10439,Nova Supplies,São Paulo,Brazil,Road Freight,Standard,5970.44,12,Delivered,False,Samuel Khan,TRK-612,2025-12-30,2026-01-02,3,2025-12
+ORD-10542,Swift Exports,Johannesburg,South Africa,Sea Freight,Same Day,24673.55,9,Delivered,True,Samuel Khan,TRK-219,2025-03-24,2025-04-25,32,2025-03
+ORD-10723,Nova Exports,Cairo,Egypt,Sea Freight,Express,18299.68,10,In Transit,False,James Okafor,TRK-714,2025-02-22,2025-03-23,29,2025-02
+ORD-10677,Metro Supplies,Mumbai,India,Air Freight,Express,7558.72,1,Delivered,True,Joseph Ade,TRK-855,2025-08-04,2025-08-07,3,2025-08
+ORD-10478,Vision Partners,Abuja,Nigeria,Road Freight,Bulk Contract,6616.91,9,Delivered,True,Michael Khan,TRK-247,2025-08-22,2025-08-28,6,2025-08
+ORD-10228,Blue Retail,Shanghai,China,Road Freight,Express,5807.35,3,Delivered,True,John Ojo,TRK-369,2025-04-22,2025-04-29,7,2025-04
+ORD-10974,Blue Supplies,Toronto,Canada,Sea Freight,Express,29882.35,7,Delivered,True,Joseph Cole,TRK-437,2025-08-18,2025-09-09,22,2025-08
+ORD-10814,Titan Supplies,Mumbai,India,Road Freight,Standard,6122.14,11,Delivered,True,John Ade,TRK-205,2025-06-19,2025-06-28,9,2025-06
+ORD-10212,Titan Holdings,Cairo,Egypt,Rail Freight,Standard,14258.82,13,Delivered,True,Peter Okafor,TRK-677,2025-09-09,2025-09-23,14,2025-09
+ORD-10079,Elite Holdings,Dubai,UAE,Road Freight,Standard,3855.65,10,Delivered,True,Peter Ojo,TRK-993,2025-07-23,2025-08-04,12,2025-07
+ORD-10148,Titan Imports,Johannesburg,South Africa,Rail Freight,Standard,15148.6,9,In Transit,False,Victor Smith,TRK-228,2025-09-23,2025-10-02,9,2025-09
+ORD-10302,Blue Partners,São Paulo,Brazil,Sea Freight,Standard,24894.04,15,Delivered,True,Peter Musa,TRK-407,2025-12-29,2026-01-26,28,2025-12
+ORD-10355,Nova Industries,São Paulo,Brazil,Air Freight,Standard,9527.54,7,Delivered,True,Peter Ali,TRK-272,2025-12-04,2025-12-07,3,2025-12
+ORD-10429,Nova Logistics,Johannesburg,South Africa,Sea Freight,Bulk Contract,18134.44,10,Delivered,False,Ibrahim Ade,TRK-412,2026-03-21,2026-04-03,13,2026-03
+ORD-10519,Vision Exports,Abuja,Nigeria,Air Freight,Standard,9561.13,12,Delivered,False,Michael Mensah,TRK-755,2025-11-30,2025-12-05,5,2025-11
+ORD-10362,Global Industries,Lagos,Nigeria,Road Freight,Standard,6307.56,7,Delayed,False,David Musa,TRK-748,2025-07-18,2025-08-01,14,2025-07
+ORD-10594,Titan Logistics,New York,USA,Sea Freight,Standard,25850.36,4,Delayed,False,Joseph Ade,TRK-961,2025-03-16,2025-04-11,26,2025-03
+ORD-10357,Elite Imports,Mumbai,India,Sea Freight,Express,21736.56,12,Delivered,False,James Okafor,TRK-844,2025-11-07,2025-11-17,10,2025-11
+ORD-10133,Prime Industries,New York,USA,Sea Freight,Standard,33426.88,2,Delivered,True,Samuel Ade,TRK-460,2025-07-02,2025-08-06,35,2025-07
+ORD-10829,Elite Supplies,London,UK,Sea Freight,Same Day,14954.2,12,Delivered,True,Unknown,TRK-420,2025-07-25,2025-08-23,29,2025-07
+ORD-10311,Global Holdings,Nairobi,Kenya,Road Freight,Standard,9387.64,13,Delivered,True,James Musa,TRK-738,2025-10-29,2025-11-08,10,2025-10
+ORD-10621,Elite Holdings,Abuja,Nigeria,Rail Freight,Standard,9964.12,3,Delivered,False,James Cole,TRK-148,2025-03-07,2025-03-22,15,2025-03
+ORD-10464,Prime Imports,Mumbai,India,Air Freight,Express,12913.81,7,Delivered,True,Joseph Ali,TRK-523,2025-04-10,2025-04-11,1,2025-04
+ORD-10993,Apex Industries,Abuja,Nigeria,Road Freight,Standard,7305.17,10,Delivered,True,Joseph Cole,TRK-719,2025-02-22,2025-02-26,4,2025-02
+ORD-10000,Nova Holdings,New York,USA,Air Freight,Express,10241.79,7,Delivered,True,John Ade,TRK-195,2025-03-13,2025-03-14,1,2025-03
+ORD-10316,Elite Supplies,Lagos,Nigeria,Road Freight,Bulk Contract,5715.59,6,Delayed,False,David Smith,TRK-759,2025-12-09,2025-12-21,12,2025-12
+ORD-10722,Nova Industries,Lagos,Nigeria,Sea Freight,Standard,24797.82,5,Delivered,True,John Okafor,TRK-323,2025-08-23,2025-09-09,17,2025-08
+ORD-10559,Prime Holdings,Nairobi,Kenya,Road Freight,Express,6361.98,12,Delivered,True,Daniel Okafor,TRK-219,2025-12-20,2025-12-27,7,2025-12
+ORD-10371,Nova Supplies,Johannesburg,South Africa,Road Freight,Express,4875.33,8,Delivered,True,Ibrahim Mensah,TRK-360,2026-02-15,2026-02-22,7,2026-02
+ORD-10544,Vision Industries,London,UK,Rail Freight,Standard,11093.35,7,Delivered,False,Samuel Ade,TRK-856,2025-01-13,2025-01-24,11,2025-01
+ORD-10849,Global Partners,Dubai,UAE,Road Freight,Standard,6925.03,8,In Transit,False,Samuel Ojo,TRK-754,2025-07-28,2025-08-03,6,2025-07
+ORD-10394,Nova Imports,Johannesburg,South Africa,Road Freight,Bulk Contract,5873.7,1,Delivered,True,Joseph Cole,TRK-765,2025-01-11,2025-01-19,8,2025-01
+ORD-10172,Vision Retail,Dubai,UAE,Road Freight,Standard,5152.13,8,Delivered,True,Samuel Ade,TRK-854,2025-05-20,2025-05-25,5,2025-05
+ORD-10125,Titan Holdings,Mumbai,India,Road Freight,Bulk Contract,3730.41,11,Delivered,False,Victor Musa,TRK-528,2025-12-14,2025-12-25,11,2025-12
+ORD-10898,Metro Retail,London,UK,Road Freight,Bulk Contract,9630.77,4,Delivered,True,David Ade,TRK-610,2026-02-12,2026-02-21,9,2026-02
+ORD-10578,Metro Holdings,Lagos,Nigeria,Air Freight,Standard,7279.62,17,Delayed,False,David Ali,TRK-453,2025-10-26,2025-11-04,9,2025-10
+ORD-10948,Nova Logistics,Lagos,Nigeria,Sea Freight,Express,20188.43,14,Delivered,True,Samuel Brown,TRK-145,2025-07-28,2025-08-25,28,2025-07
+ORD-10920,Swift Industries,Accra,Ghana,Air Freight,Bulk Contract,8678.66,1,Delivered,True,David Ojo,TRK-486,2026-01-26,2026-01-29,3,2026-01
+ORD-10090,Global Industries,Dubai,UAE,Sea Freight,Express,26379.67,4,Delivered,True,Joseph Khan,TRK-763,2025-07-15,2025-08-12,28,2025-07
+ORD-10970,Vision Retail,Accra,Ghana,Road Freight,Bulk Contract,6554.49,6,Delivered,True,David Khan,TRK-215,2025-09-08,2025-09-20,12,2025-09
+ORD-10181,Apex Partners,Port Harcourt,Nigeria,Road Freight,Express,5804.23,9,In Transit,False,Ibrahim Ali,TRK-182,2025-11-27,2025-12-03,6,2025-11
+ORD-10363,Prime Retail,Shanghai,China,Sea Freight,Express,22129.04,9,Delivered,True,Ibrahim Khan,TRK-628,2025-10-19,2025-11-01,13,2025-10
+ORD-10274,Elite Industries,Port Harcourt,Nigeria,Rail Freight,Express,13299.01,5,Delivered,True,Michael Cole,TRK-934,2025-11-24,2025-12-03,9,2025-11
+ORD-10912,Elite Imports,Port Harcourt,Nigeria,Road Freight,Standard,6303.58,9,Delayed,False,Daniel Ojo,TRK-396,2025-12-03,2025-12-11,8,2025-12
+ORD-10069,Metro Holdings,Dubai,UAE,Rail Freight,Standard,14847.31,3,Delivered,True,Peter Brown,TRK-786,2025-11-22,2025-12-10,18,2025-11
+ORD-10291,Titan Retail,Nairobi,Kenya,Air Freight,Standard,10581.95,17,Delivered,True,Daniel Okafor,TRK-989,2025-07-10,2025-07-11,1,2025-07
+ORD-10131,Elite Imports,Mumbai,India,Road Freight,Standard,500.0,3,Delayed,False,Samuel Smith,TRK-539,2025-09-13,2025-09-30,17,2025-09
+ORD-10300,Titan Imports,Abuja,Nigeria,Sea Freight,Standard,27298.92,4,Delivered,True,Samuel Musa,TRK-883,2025-05-22,2025-06-09,18,2025-05
+ORD-10447,Vision Industries,Nairobi,Kenya,Road Freight,Standard,8487.89,10,Delivered,True,Samuel Ali,TRK-603,2025-02-10,2025-02-19,9,2025-02
+ORD-10326,Nova Retail,Abuja,Nigeria,Rail Freight,Express,44235.56,3,Delivered,True,Victor Musa,TRK-311,2025-07-26,2025-08-05,10,2025-07
+ORD-10144,Blue Supplies,Accra,Ghana,Road Freight,Bulk Contract,6505.79,5,Delivered,True,Michael Mensah,TRK-342,2025-12-25,2026-01-06,12,2025-12
+ORD-10551,Apex Retail,London,UK,Rail Freight,Standard,19309.31,7,In Transit,False,Ibrahim Mensah,TRK-669,2026-01-23,2026-02-03,11,2026-01
+ORD-10595,Titan Industries,Toronto,Canada,Road Freight,Bulk Contract,6189.68,2,Delivered,True,David Musa,TRK-987,2026-02-08,2026-02-20,12,2026-02
+ORD-10655,Prime Logistics,São Paulo,Brazil,Road Freight,Bulk Contract,5954.95,11,Delivered,True,Ibrahim Ojo,TRK-686,2026-02-24,2026-03-05,9,2026-02
+ORD-10135,Vision Retail,Nairobi,Kenya,Air Freight,Standard,12603.18,2,Delivered,True,John Khan,TRK-392,2025-06-08,2025-06-13,5,2025-06
+ORD-10430,Apex Partners,London,UK,Air Freight,Standard,9507.31,1,Delivered,True,Joseph Cole,TRK-616,2025-09-15,2025-09-17,2,2025-09
+ORD-10164,Titan Retail,Mumbai,India,Road Freight,Express,7123.42,10,Delayed,False,Michael Smith,TRK-889,2025-05-16,2025-05-28,12,2025-05
+ORD-10028,Swift Logistics,Port Harcourt,Nigeria,Road Freight,Standard,4489.41,6,Delivered,True,Peter Cole,TRK-665,2025-10-10,2025-10-18,8,2025-10
+ORD-10587,Apex Retail,Port Harcourt,Nigeria,Road Freight,Express,4642.86,6,Delayed,False,James Mensah,TRK-362,2025-07-30,2025-08-12,13,2025-07
+ORD-10193,Prime Partners,Accra,Ghana,Sea Freight,Standard,24392.29,15,Delivered,True,Peter Khan,TRK-479,2025-05-14,2025-06-04,21,2025-05
+ORD-10652,Blue Partners,Port Harcourt,Nigeria,Sea Freight,Standard,25755.57,4,In Transit,False,Daniel Ade,TRK-864,2025-09-20,2025-10-16,26,2025-09
+ORD-10169,Global Supplies,New York,USA,Rail Freight,Bulk Contract,13445.26,5,Delivered,False,Joseph Khan,TRK-647,2025-04-13,2025-04-30,17,2025-04
+ORD-10513,Prime Imports,Mumbai,India,Sea Freight,Same Day,22266.02,8,Delivered,True,Victor Ojo,TRK-794,2025-01-29,2025-02-18,20,2025-01
+ORD-10140,Global Exports,Mumbai,India,Sea Freight,Standard,22794.62,10,Delivered,True,Daniel Brown,TRK-480,2025-11-27,2025-12-18,21,2025-11
+ORD-10173,Elite Industries,Johannesburg,South Africa,Road Freight,Express,9630.77,2,Delayed,False,David Ali,TRK-785,2025-03-31,2025-04-13,13,2025-03
+ORD-10006,Metro Holdings,Toronto,Canada,Road Freight,Express,6435.53,1,Delayed,False,James Okafor,TRK-316,2026-02-02,2026-02-11,9,2026-02
+ORD-10656,Elite Partners,Accra,Ghana,Road Freight,Bulk Contract,8502.37,10,Delayed,False,Daniel Ojo,TRK-252,2025-09-01,2025-09-15,14,2025-09
+ORD-10964,Titan Supplies,Shanghai,China,Sea Freight,Bulk Contract,29706.72,15,Delivered,True,Samuel Smith,TRK-849,2026-03-09,2026-03-22,13,2026-03
+ORD-10073,Prime Partners,Hamburg,Germany,Road Freight,Express,3773.49,2,Delivered,True,David Mensah,TRK-610,2025-01-08,2025-01-16,8,2025-01
+ORD-10764,Swift Holdings,New York,USA,Road Freight,Standard,5120.07,3,Delivered,True,David Ojo,TRK-985,2025-07-23,2025-08-01,9,2025-07
+ORD-10653,Prime Industries,Port Harcourt,Nigeria,Rail Freight,Standard,12098.63,7,In Transit,False,Joseph Smith,TRK-141,2025-11-05,2025-11-23,18,2025-11
+ORD-10238,Nova Imports,Toronto,Canada,Road Freight,Standard,7037.8,9,Delivered,True,Victor Ojo,TRK-109,2025-02-18,2025-02-20,2,2025-02
+ORD-10145,Prime Supplies,Mumbai,India,Sea Freight,Standard,20543.14,6,Delivered,False,James Ali,TRK-834,2025-08-28,2025-10-02,35,2025-08
+ORD-10808,Apex Retail,Accra,Ghana,Air Freight,Same Day,9746.88,4,Delivered,True,Joseph Musa,TRK-311,2026-03-21,2026-03-26,5,2026-03
+ORD-10234,Prime Holdings,Mumbai,India,Road Freight,Standard,5045.1,5,In Transit,False,Michael Ali,TRK-944,2025-11-22,2025-12-04,12,2025-11
+ORD-10220,Swift Holdings,Port Harcourt,Nigeria,Road Freight,Standard,6691.32,7,Delivered,True,Ibrahim Ade,TRK-855,2025-08-25,2025-08-30,5,2025-08
+ORD-10500,Titan Industries,Lagos,Nigeria,Air Freight,Standard,12498.39,11,Delivered,True,James Smith,TRK-921,2026-03-09,2026-03-13,4,2026-03
+ORD-10673,Vision Imports,Shanghai,China,Road Freight,Standard,1402.94,11,Delivered,False,John Khan,TRK-940,2025-04-30,2025-05-09,9,2025-04
+ORD-10132,Prime Logistics,Lagos,Nigeria,Road Freight,Standard,5545.38,3,Delivered,True,Ibrahim Ojo,TRK-144,2025-12-07,2025-12-19,12,2025-12
+ORD-10433,Apex Holdings,London,UK,Sea Freight,Standard,24001.06,9,Delayed,False,Peter Brown,TRK-295,2025-06-15,2025-07-22,37,2025-06
+ORD-10670,Apex Partners,Johannesburg,South Africa,Air Freight,Express,47007.15,8,Delivered,True,Ibrahim Musa,TRK-183,2025-01-02,2025-01-05,3,2025-01
+ORD-10185,Elite Imports,Hamburg,Germany,Air Freight,Express,9061.28,9,Delivered,True,John Mensah,TRK-615,2025-01-25,2025-01-26,1,2025-01
+ORD-10041,Elite Industries,Toronto,Canada,Sea Freight,Standard,32345.26,5,Delivered,True,Daniel Cole,TRK-934,2026-03-11,2026-03-24,13,2026-03
+ORD-10625,Vision Partners,Hamburg,Germany,Sea Freight,Express,24316.16,11,Delivered,True,Ibrahim Cole,TRK-843,2025-01-10,2025-01-18,8,2025-01
+ORD-10108,Titan Logistics,Mumbai,India,Sea Freight,Standard,16590.22,7,Delivered,True,Michael Ali,TRK-713,2025-12-14,2026-01-14,31,2025-12
+ORD-10603,Elite Holdings,Hamburg,Germany,Sea Freight,Standard,17086.06,5,Delivered,False,Daniel Ojo,TRK-221,2025-07-08,2025-07-23,15,2025-07
+ORD-10056,Elite Imports,Nairobi,Kenya,Sea Freight,Standard,22421.61,17,Delivered,False,David Khan,TRK-837,2025-11-02,2025-12-04,32,2025-11
+ORD-10428,Nova Holdings,Abuja,Nigeria,Road Freight,Express,4501.76,9,Delivered,True,David Ade,TRK-889,2026-02-27,2026-03-09,10,2026-02
+ORD-10468,Metro Supplies,London,UK,Sea Freight,Express,14851.37,10,Delivered,True,Samuel Smith,TRK-960,2025-10-02,2025-10-11,9,2025-10
+ORD-10576,Nova Partners,Accra,Ghana,Road Freight,Standard,4849.87,2,Delivered,True,Daniel Musa,TRK-974,2025-12-12,2025-12-21,9,2025-12
+ORD-10877,Vision Supplies,Johannesburg,South Africa,Sea Freight,Express,25578.42,13,Delivered,True,Peter Cole,TRK-205,2025-11-10,2025-11-19,9,2025-11
+ORD-10024,Blue Retail,Johannesburg,South Africa,Rail Freight,Bulk Contract,13202.66,1,Delivered,False,Samuel Brown,TRK-170,2025-11-15,2025-11-29,14,2025-11
+ORD-10440,Global Industries,Dubai,UAE,Road Freight,Express,10548.48,5,Delivered,True,Peter Brown,TRK-740,2025-09-29,2025-10-03,4,2025-09
+ORD-10882,Vision Logistics,London,UK,Road Freight,Standard,5557.09,4,Delivered,True,Michael Ade,TRK-786,2026-03-15,2026-03-20,5,2026-03
+ORD-10543,Metro Industries,Lagos,Nigeria,Rail Freight,Express,15605.99,8,Delivered,True,Samuel Brown,TRK-559,2025-07-09,2025-07-15,6,2025-07
+ORD-10633,Vision Exports,Toronto,Canada,Sea Freight,Standard,21221.42,4,In Transit,False,Joseph Khan,TRK-389,2025-12-01,2026-01-03,33,2025-12
+ORD-10830,Prime Supplies,New York,USA,Road Freight,Bulk Contract,8370.81,7,Delivered,True,David Brown,TRK-717,2026-02-16,2026-02-23,7,2026-02
+ORD-10944,Titan Retail,Lagos,Nigeria,Road Freight,Standard,5147.09,7,Delayed,False,James Ojo,TRK-230,2025-10-10,2025-10-19,9,2025-10
+ORD-10338,Metro Logistics,Mumbai,India,Road Freight,Standard,4000.96,15,Delivered,True,John Smith,TRK-307,2025-07-15,2025-07-23,8,2025-07
+ORD-10051,Apex Holdings,Toronto,Canada,Road Freight,Express,5383.11,4,Delivered,True,Michael Okafor,TRK-706,2025-06-09,2025-06-10,1,2025-06
+ORD-10383,Metro Holdings,Abuja,Nigeria,Sea Freight,Standard,21755.08,15,Delayed,False,Peter Musa,TRK-648,2025-04-23,2025-05-31,38,2025-04
+ORD-10527,Blue Retail,Toronto,Canada,Road Freight,Standard,5009.45,5,Delivered,True,Joseph Mensah,TRK-908,2025-08-27,2025-09-05,9,2025-08
+ORD-10887,Apex Imports,London,UK,Sea Freight,Standard,16802.71,2,Delivered,True,James Khan,TRK-512,2025-07-09,2025-07-22,13,2025-07
+ORD-10264,Metro Supplies,São Paulo,Brazil,Road Freight,Standard,6467.5,4,Delivered,True,John Ojo,TRK-151,2025-11-27,2025-12-06,9,2025-11
+ORD-10549,Apex Partners,Accra,Ghana,Sea Freight,Standard,28414.29,9,Delivered,True,James Mensah,TRK-925,2025-10-15,2025-10-27,12,2025-10
+ORD-10913,Prime Partners,Accra,Ghana,Road Freight,Same Day,4037.28,13,Delivered,True,Ibrahim Ali,TRK-251,2025-12-08,2025-12-14,6,2025-12
+ORD-10697,Titan Supplies,Shanghai,China,Sea Freight,Standard,19442.75,8,Delivered,True,Samuel Okafor,TRK-402,2025-07-13,2025-08-10,28,2025-07
+ORD-10395,Vision Supplies,New York,USA,Sea Freight,Same Day,25007.33,8,Delivered,True,Ibrahim Cole,TRK-393,2025-06-16,2025-07-17,31,2025-06
+ORD-10529,Swift Logistics,Toronto,Canada,Sea Freight,Bulk Contract,25805.2,6,Delivered,True,Ibrahim Ade,TRK-141,2025-08-11,2025-09-08,28,2025-08
+ORD-10868,Apex Supplies,London,UK,Rail Freight,Bulk Contract,8312.11,3,Delivered,False,Joseph Cole,TRK-419,2025-04-12,2025-04-27,15,2025-04
+ORD-10018,Prime Partners,Shanghai,China,Air Freight,Standard,9522.16,1,Delivered,True,Victor Okafor,TRK-151,2025-03-13,2025-03-17,4,2025-03
+ORD-10731,Metro Holdings,Nairobi,Kenya,Sea Freight,Express,20536.84,4,In Transit,False,Ibrahim Mensah,TRK-582,2025-04-14,2025-04-30,16,2025-04
+ORD-10581,Vision Industries,Cairo,Egypt,Road Freight,Standard,3498.77,1,Delivered,True,Samuel Cole,TRK-406,2025-09-08,2025-09-11,3,2025-09
+ORD-10976,Swift Industries,Johannesburg,South Africa,Sea Freight,Same Day,15659.87,5,Delayed,False,Peter Ali,TRK-320,2025-07-22,2025-08-26,35,2025-07
+ORD-10367,Titan Supplies,Port Harcourt,Nigeria,Air Freight,Standard,11572.89,9,Delivered,False,Michael Ojo,TRK-721,2025-07-27,2025-08-01,5,2025-07
+ORD-10083,Nova Retail,Lagos,Nigeria,Road Freight,Standard,7479.71,15,Delivered,True,Ibrahim Smith,TRK-567,2025-10-07,2025-10-11,4,2025-10
+ORD-10061,Prime Supplies,Lagos,Nigeria,Road Freight,Standard,8525.03,2,Delivered,True,Ibrahim Ojo,TRK-175,2025-04-05,2025-04-07,2,2025-04
+ORD-10841,Apex Exports,Lagos,Nigeria,Road Freight,Standard,4373.34,9,Delayed,False,Joseph Ali,TRK-974,2025-01-05,2025-01-17,12,2025-01
+ORD-10272,Swift Industries,Hamburg,Germany,Sea Freight,Standard,4698.49,4,Delivered,True,John Ade,TRK-251,2025-11-11,2025-11-27,16,2025-11
+ORD-10285,Apex Holdings,New York,USA,Sea Freight,Standard,22128.93,14,In Transit,False,Victor Ojo,TRK-686,2025-10-29,2025-11-15,17,2025-10
+ORD-10360,Swift Partners,London,UK,Air Freight,Standard,9769.5,1,Delivered,True,Samuel Mensah,TRK-679,2025-05-03,2025-05-08,5,2025-05
+ORD-10354,Blue Supplies,New York,USA,Air Freight,Standard,3795.18,14,Delivered,True,James Cole,TRK-171,2025-09-07,2025-09-10,3,2025-09
+ORD-10481,Swift Partners,London,UK,Road Freight,Express,6353.74,10,Delivered,True,Ibrahim Okafor,TRK-448,2025-07-25,2025-08-03,9,2025-07
+ORD-10278,Prime Partners,Dubai,UAE,Road Freight,Same Day,5122.31,6,Delayed,False,Joseph Khan,TRK-266,2025-09-10,2025-09-22,12,2025-09
+ORD-10182,Apex Exports,New York,USA,Rail Freight,Bulk Contract,14415.5,6,Delivered,True,Michael Ade,TRK-874,2026-03-17,2026-03-27,10,2026-03
+ORD-10368,Swift Retail,Dubai,UAE,Road Freight,Standard,6460.85,11,Delayed,False,Samuel Brown,TRK-564,2025-11-04,2025-11-16,12,2025-11
+ORD-10599,Titan Industries,Lagos,Nigeria,Road Freight,Standard,6403.05,13,Delivered,True,Joseph Okafor,TRK-213,2025-11-25,2025-11-29,4,2025-11
+ORD-10630,Vision Imports,Toronto,Canada,Road Freight,Standard,7004.99,8,Delivered,True,John Musa,TRK-119,2025-09-06,2025-09-16,10,2025-09
+ORD-10223,Swift Industries,Johannesburg,South Africa,Road Freight,Express,6659.88,4,Delayed,False,David Khan,TRK-412,2025-12-28,2026-01-06,9,2025-12
+ORD-10971,Vision Industries,São Paulo,Brazil,Road Freight,Express,6484.43,6,Delivered,True,David Brown,TRK-813,2025-08-17,2025-08-23,6,2025-08
+ORD-10714,Prime Partners,Abuja,Nigeria,Sea Freight,Express,20451.22,6,Delivered,True,Ibrahim Brown,TRK-863,2025-03-26,2025-04-12,17,2025-03
+ORD-10777,Nova Retail,London,UK,Road Freight,Standard,5592.34,9,Delayed,False,Victor Smith,TRK-722,2025-09-08,2025-09-17,9,2025-09
+ORD-10557,Titan Retail,New York,USA,Air Freight,Standard,9376.05,9,Delayed,False,Peter Okafor,TRK-647,2025-10-06,2025-10-17,11,2025-10
+ORD-10465,Prime Retail,Lagos,Nigeria,Sea Freight,Express,18113.6,15,Delivered,True,James Musa,TRK-663,2025-01-06,2025-02-04,29,2025-01
+ORD-10597,Vision Partners,New York,USA,Sea Freight,Bulk Contract,10849.04,9,Delivered,True,Ibrahim Brown,TRK-834,2026-02-09,2026-02-20,11,2026-02
+ORD-10707,Elite Supplies,Shanghai,China,Road Freight,Standard,4841.67,11,Delivered,True,Daniel Ade,TRK-477,2025-02-05,2025-02-13,8,2025-02
+ORD-10176,Elite Partners,Hamburg,Germany,Sea Freight,Same Day,28003.62,7,Delivered,False,Victor Khan,TRK-880,2025-08-21,2025-09-23,33,2025-08
+ORD-10680,Global Holdings,Mumbai,India,Road Freight,Standard,5972.44,10,Delivered,True,Peter Okafor,TRK-901,2025-08-17,2025-08-28,11,2025-08
+ORD-10853,Nova Supplies,Port Harcourt,Nigeria,Sea Freight,Standard,26708.02,15,Delayed,False,David Okafor,TRK-191,2025-12-19,2026-01-24,36,2025-12
+ORD-10954,Nova Partners,Port Harcourt,Nigeria,Road Freight,Express,3850.93,8,Delivered,True,Michael Mensah,TRK-997,2025-03-02,2025-03-03,1,2025-03
+ORD-10456,Titan Retail,Hamburg,Germany,Road Freight,Bulk Contract,6448.89,14,Delivered,True,Daniel Smith,TRK-741,2025-03-16,2025-03-20,4,2025-03
+ORD-10532,Metro Partners,Toronto,Canada,Sea Freight,Express,19462.91,3,Delivered,False,John Okafor,TRK-494,2025-08-21,2025-09-13,23,2025-08
+ORD-10393,Prime Partners,Shanghai,China,Road Freight,Standard,7501.06,9,Delivered,True,Peter Smith,TRK-469,2025-01-31,2025-02-05,5,2025-01
+ORD-10163,Elite Industries,Nairobi,Kenya,Road Freight,Same Day,8084.6,11,Delivered,False,Victor Brown,TRK-792,2025-07-12,2025-07-19,7,2025-07
+ORD-10248,Swift Supplies,Nairobi,Kenya,Air Freight,Standard,6406.88,7,Delivered,True,John Mensah,TRK-818,2025-11-08,2025-11-09,1,2025-11
+ORD-10649,Elite Imports,New York,USA,Road Freight,Express,6481.31,9,Delivered,True,Peter Ojo,TRK-200,2026-01-01,2026-01-06,5,2026-01
+ORD-10902,Apex Holdings,São Paulo,Brazil,Air Freight,Standard,4492.15,1,Delivered,True,David Smith,TRK-409,2025-07-01,2025-07-03,2,2025-07
+ORD-10684,Global Logistics,Port Harcourt,Nigeria,Road Freight,Standard,5202.09,4,Delivered,True,Samuel Smith,TRK-698,2026-01-07,2026-01-18,11,2026-01
+ORD-10375,Swift Supplies,Johannesburg,South Africa,Road Freight,Standard,4338.18,2,Delivered,True,Michael Musa,TRK-510,2026-03-19,2026-03-31,12,2026-03
+ORD-10412,Nova Exports,Accra,Ghana,Road Freight,Standard,5198.1,13,Delivered,True,Peter Okafor,TRK-354,2025-01-22,2025-02-02,11,2025-01
+ORD-10074,Elite Exports,São Paulo,Brazil,Road Freight,Standard,6939.49,9,Delivered,False,Ibrahim Khan,TRK-713,2026-03-04,2026-03-13,9,2026-03
+ORD-10113,Metro Exports,Johannesburg,South Africa,Road Freight,Standard,6115.7,3,Delivered,True,Michael Okafor,TRK-249,2025-09-29,2025-10-09,10,2025-09
+ORD-10583,Titan Supplies,Cairo,Egypt,Road Freight,Express,8491.69,10,In Transit,False,Joseph Musa,TRK-586,2026-01-03,2026-01-13,10,2026-01
+ORD-10572,Swift Logistics,Dubai,UAE,Sea Freight,Standard,20788.5,8,Delivered,True,David Ade,TRK-950,2025-03-04,2025-03-22,18,2025-03
+ORD-10390,Metro Holdings,Accra,Ghana,Sea Freight,Express,23243.91,2,Delivered,True,James Ojo,TRK-284,2025-09-13,2025-10-05,22,2025-09
+ORD-10104,Elite Logistics,Shanghai,China,Air Freight,Bulk Contract,10287.62,23,Delivered,True,Joseph Smith,TRK-129,2026-01-26,2026-01-29,3,2026-01
+ORD-10114,Vision Partners,Accra,Ghana,Air Freight,Express,7211.74,10,Delayed,False,Joseph Cole,TRK-430,2025-12-02,2025-12-11,9,2025-12
+ORD-10417,Vision Exports,Shanghai,China,Sea Freight,Express,21757.21,8,Delivered,True,Joseph Smith,TRK-430,2025-02-02,2025-03-02,28,2025-02
+ORD-10668,Apex Imports,London,UK,Road Freight,Standard,4895.88,6,Delivered,True,Joseph Musa,TRK-921,2025-03-04,2025-03-08,4,2025-03
+ORD-10457,Vision Logistics,Port Harcourt,Nigeria,Air Freight,Standard,8761.76,9,Delivered,True,Joseph Ojo,TRK-343,2025-11-15,2025-11-18,3,2025-11
+ORD-10409,Blue Holdings,London,UK,Sea Freight,Standard,225759.9,12,Delayed,False,Daniel Khan,TRK-855,2026-02-23,2026-03-25,30,2026-02
+ORD-10092,Swift Holdings,Nairobi,Kenya,Road Freight,Standard,5597.77,10,Delivered,True,David Ojo,TRK-730,2025-12-10,2025-12-20,10,2025-12
+ORD-10819,Apex Partners,Mumbai,India,Rail Freight,Express,19218.84,3,Delayed,False,Daniel Okafor,TRK-215,2026-03-18,2026-03-25,7,2026-03
+ORD-10089,Apex Logistics,Mumbai,India,Rail Freight,Bulk Contract,11073.7,18,Delivered,True,James Musa,TRK-226,2025-07-23,2025-08-10,18,2025-07
+ORD-10336,Global Retail,Lagos,Nigeria,Road Freight,Standard,5383.16,6,Delayed,False,Michael Musa,TRK-133,2025-03-24,2025-04-06,13,2025-03
+ORD-10859,Titan Exports,Cairo,Egypt,Sea Freight,Express,26966.16,6,Delivered,True,Peter Khan,TRK-195,2025-03-02,2025-03-29,27,2025-03
+ORD-10939,Titan Imports,New York,USA,Sea Freight,Standard,10215.93,4,Delivered,True,John Brown,TRK-843,2025-01-14,2025-02-12,29,2025-01
+ORD-10951,Nova Retail,São Paulo,Brazil,Sea Freight,Standard,30211.87,9,Delivered,True,Michael Brown,TRK-348,2025-09-26,2025-10-22,26,2025-09
+ORD-10883,Elite Industries,Nairobi,Kenya,Sea Freight,Standard,37196.6,7,Delivered,True,James Ojo,TRK-771,2025-06-24,2025-07-10,16,2025-06
+ORD-10620,Elite Supplies,Lagos,Nigeria,Sea Freight,Same Day,19346.11,7,Delivered,True,James Ojo,TRK-547,2025-11-28,2025-12-29,31,2025-11
+ORD-10789,Swift Exports,Johannesburg,South Africa,Sea Freight,Standard,16857.86,4,Delayed,False,Peter Ali,TRK-105,2025-02-25,2025-03-28,31,2025-02
+ORD-10094,Blue Logistics,Johannesburg,South Africa,Air Freight,Standard,6883.02,1,In Transit,False,John Brown,TRK-349,2026-03-11,2026-03-15,4,2026-03
+ORD-10011,Metro Exports,Mumbai,India,Air Freight,Bulk Contract,9168.82,2,Delayed,False,Victor Musa,TRK-100,2025-06-02,2025-06-13,11,2025-06
+ORD-10396,Apex Supplies,Dubai,UAE,Road Freight,Standard,6488.84,2,Delivered,True,David Mensah,TRK-451,2026-02-18,2026-02-25,7,2026-02
+ORD-10545,Nova Exports,London,UK,Rail Freight,Standard,11749.4,7,Delivered,False,Joseph Ojo,TRK-446,2025-08-31,2025-09-09,9,2025-08
+ORD-10043,Titan Industries,New York,USA,Sea Freight,Express,28407.81,9,Delivered,True,Peter Musa,TRK-182,2025-05-03,2025-05-19,16,2025-05
+ORD-10167,Prime Imports,Accra,Ghana,Road Freight,Standard,7755.22,7,Delayed,False,Michael Ade,TRK-785,2025-05-19,2025-06-05,17,2025-05
+ORD-10416,Elite Holdings,Abuja,Nigeria,Sea Freight,Standard,134739.09,4,Delayed,False,Samuel Ade,TRK-734,2025-10-05,2025-10-31,26,2025-10
+ORD-10876,Apex Retail,Cairo,Egypt,Air Freight,Standard,7364.81,1,Delivered,True,James Brown,TRK-871,2025-06-22,2025-06-23,1,2025-06
+ORD-10426,Titan Exports,Lagos,Nigeria,Sea Freight,Same Day,17538.29,12,Delivered,True,David Ade,TRK-571,2025-06-03,2025-06-20,17,2025-06
+ORD-10980,Prime Retail,Shanghai,China,Road Freight,Standard,5901.19,9,Delivered,True,Joseph Ojo,TRK-485,2025-09-20,2025-09-22,2,2025-09
+ORD-10975,Metro Supplies,Port Harcourt,Nigeria,Road Freight,Standard,2808.54,13,Delivered,True,John Musa,TRK-315,2026-02-15,2026-02-23,8,2026-02
+ORD-10687,Metro Retail,Nairobi,Kenya,Road Freight,Express,8648.11,7,In Transit,False,Ibrahim Brown,TRK-266,2025-11-04,2025-11-08,4,2025-11
+ORD-10257,Blue Holdings,Cairo,Egypt,Sea Freight,Standard,17962.6,11,In Transit,False,Peter Ojo,TRK-865,2025-12-31,2026-01-18,18,2025-12
+ORD-10335,Global Supplies,Dubai,UAE,Road Freight,Bulk Contract,8242.95,1,Delivered,True,John Ali,TRK-248,2025-12-12,2025-12-22,10,2025-12
+ORD-10015,Global Imports,Nairobi,Kenya,Sea Freight,Standard,17788.05,15,Delivered,True,David Ade,TRK-980,2025-04-28,2025-05-26,28,2025-04
+ORD-10644,Vision Imports,Toronto,Canada,Sea Freight,Standard,14276.43,1,Delayed,False,Victor Cole,TRK-907,2025-09-28,2025-10-30,32,2025-09
+ORD-10324,Vision Industries,Lagos,Nigeria,Road Freight,Standard,5584.32,10,Delayed,False,Michael Brown,TRK-384,2026-03-13,2026-03-30,17,2026-03
+ORD-10774,Elite Exports,Abuja,Nigeria,Road Freight,Standard,7378.94,12,Delivered,True,Ibrahim Mensah,TRK-423,2025-11-27,2025-12-02,5,2025-11
+ORD-10222,Apex Holdings,Johannesburg,South Africa,Air Freight,Standard,9630.77,10,Delivered,False,Joseph Okafor,TRK-456,2025-09-08,2025-09-13,5,2025-09
+ORD-10179,Titan Logistics,Mumbai,India,Air Freight,Standard,9806.8,4,Delivered,True,Ibrahim Smith,TRK-936,2025-10-16,2025-10-17,1,2025-10
+ORD-10521,Prime Industries,Shanghai,China,Road Freight,Standard,7941.63,7,Delivered,True,Victor Musa,TRK-324,2025-05-01,2025-05-06,5,2025-05
+ORD-10022,Prime Imports,Lagos,Nigeria,Rail Freight,Standard,6825.17,5,Delivered,True,Joseph Cole,TRK-140,2025-11-01,2025-11-07,6,2025-11
+ORD-10961,Vision Partners,London,UK,Sea Freight,Bulk Contract,14490.8,8,Delivered,True,Michael Mensah,TRK-395,2025-06-27,2025-07-16,19,2025-06
+ORD-10905,Apex Partners,Toronto,Canada,Sea Freight,Bulk Contract,18618.57,8,Delivered,True,John Musa,TRK-127,2025-08-28,2025-09-18,21,2025-08
+ORD-10340,Global Holdings,Port Harcourt,Nigeria,Rail Freight,Standard,14525.85,3,In Transit,False,James Musa,TRK-370,2026-01-12,2026-01-25,13,2026-01
+ORD-10431,Global Holdings,Abuja,Nigeria,Sea Freight,Standard,32832.54,15,Delivered,True,James Okafor,TRK-508,2025-03-09,2025-03-29,20,2025-03
+ORD-10850,Nova Holdings,Hamburg,Germany,Air Freight,Standard,9876.58,9,In Transit,False,Michael Brown,TRK-314,2025-08-04,2025-08-09,5,2025-08
+ORD-10203,Apex Industries,Nairobi,Kenya,Road Freight,Express,4078.28,7,Delivered,True,Ibrahim Mensah,TRK-909,2025-07-23,2025-07-24,1,2025-07
+ORD-10917,Elite Retail,São Paulo,Brazil,Road Freight,Standard,4897.61,9,In Transit,False,Samuel Brown,TRK-702,2025-11-07,2025-11-19,12,2025-11
+ORD-10093,Metro Supplies,Cairo,Egypt,Rail Freight,Standard,13656.33,7,Delivered,True,Peter Musa,TRK-760,2025-04-22,2025-05-04,12,2025-04
+ORD-10068,Global Exports,Abuja,Nigeria,Sea Freight,Express,16517.23,6,Delayed,False,Daniel Musa,TRK-767,2025-10-28,2025-11-12,15,2025-10
+ORD-10754,Blue Supplies,Cairo,Egypt,Road Freight,Standard,6159.13,13,Delivered,True,Joseph Brown,TRK-230,2025-02-14,2025-02-17,3,2025-02
+ORD-10284,Titan Logistics,Port Harcourt,Nigeria,Sea Freight,Standard,8904.46,6,Delivered,True,Samuel Okafor,TRK-187,2025-01-23,2025-02-10,18,2025-01
+ORD-10927,Metro Logistics,New York,USA,Air Freight,Standard,11501.46,5,Delivered,True,Michael Ojo,TRK-174,2025-06-21,2025-06-22,1,2025-06
+ORD-10434,Vision Exports,Johannesburg,South Africa,Sea Freight,Express,26609.81,16,Delayed,False,Daniel Ade,TRK-937,2025-03-28,2025-04-23,26,2025-03
+ORD-10153,Apex Holdings,Abuja,Nigeria,Sea Freight,Standard,30943.65,5,Delivered,True,Michael Mensah,TRK-933,2025-05-07,2025-05-21,14,2025-05
+ORD-10075,Titan Logistics,London,UK,Road Freight,Standard,6450.89,9,Delivered,True,James Smith,TRK-957,2026-01-31,2026-02-08,8,2026-01
+ORD-10746,Swift Logistics,Shanghai,China,Sea Freight,Standard,18050.27,8,Delivered,True,Joseph Okafor,TRK-989,2025-12-24,2026-01-15,22,2025-12
+ORD-10446,Nova Retail,São Paulo,Brazil,Road Freight,Express,7920.01,12,Delivered,True,Joseph Cole,TRK-727,2025-03-19,2025-03-23,4,2025-03
+ORD-10188,Elite Partners,New York,USA,Sea Freight,Standard,28106.24,8,Delivered,True,Michael Khan,TRK-407,2025-07-29,2025-08-12,14,2025-07
+ORD-10271,Vision Logistics,Port Harcourt,Nigeria,Road Freight,Standard,6953.65,13,In Transit,False,David Ade,TRK-338,2025-09-10,2025-09-20,10,2025-09
+ORD-10487,Apex Holdings,Johannesburg,South Africa,Air Freight,Standard,7884.54,1,Delivered,True,Ibrahim Ali,TRK-658,2025-08-10,2025-08-15,5,2025-08
+ORD-10835,Swift Exports,New York,USA,Sea Freight,Bulk Contract,20327.48,6,Delivered,False,Victor Musa,TRK-846,2026-01-03,2026-01-20,17,2026-01
+ORD-10512,Elite Retail,Nairobi,Kenya,Air Freight,Standard,13318.86,9,Delivered,True,Daniel Musa,TRK-954,2025-10-31,2025-11-02,2,2025-10
+ORD-10685,Metro Retail,Cairo,Egypt,Sea Freight,Express,20789.38,14,Delivered,True,Peter Ade,TRK-630,2025-10-26,2025-11-21,26,2025-10
+ORD-10126,Elite Supplies,Port Harcourt,Nigeria,Road Freight,Bulk Contract,9819.88,12,Delivered,True,Victor Okafor,TRK-391,2025-05-09,2025-05-11,2,2025-05
+ORD-10116,Prime Holdings,Accra,Ghana,Sea Freight,Standard,22319.0,5,Delivered,True,Daniel Cole,TRK-667,2025-05-27,2025-06-08,12,2025-05
+ORD-10057,Titan Imports,Cairo,Egypt,Sea Freight,Express,20653.47,9,Delivered,True,Ibrahim Khan,TRK-413,2025-11-27,2025-12-27,30,2025-11
+ORD-10689,Metro Logistics,Mumbai,India,Rail Freight,Standard,9880.35,15,Delivered,True,David Brown,TRK-130,2025-04-16,2025-04-27,11,2025-04
+ORD-10929,Blue Logistics,Accra,Ghana,Road Freight,Standard,6519.65,9,Delivered,True,John Ade,TRK-892,2025-04-26,2025-05-08,12,2025-04
+ORD-10369,Elite Holdings,Hamburg,Germany,Road Freight,Standard,8997.85,12,Delivered,True,Samuel Cole,TRK-198,2025-02-25,2025-02-27,2,2025-02
+ORD-10268,Nova Imports,London,UK,Road Freight,Standard,4451.26,6,Delivered,True,John Smith,TRK-159,2025-06-14,2025-06-22,8,2025-06
+ORD-10046,Blue Retail,São Paulo,Brazil,Rail Freight,Standard,9542.81,6,Delivered,True,Ibrahim Ojo,TRK-129,2025-10-07,2025-10-24,17,2025-10
+ORD-10349,Nova Logistics,Cairo,Egypt,Sea Freight,Standard,28468.19,7,Delivered,True,David Brown,TRK-614,2025-10-01,2025-10-11,10,2025-10
+ORD-10195,Vision Partners,Nairobi,Kenya,Sea Freight,Bulk Contract,15711.1,9,Delivered,True,Daniel Mensah,TRK-850,2025-12-02,2026-01-02,31,2025-12
+ORD-10851,Prime Partners,Nairobi,Kenya,Rail Freight,Express,14221.53,12,Delivered,True,Daniel Ali,TRK-520,2026-02-21,2026-03-02,9,2026-02
+ORD-10706,Swift Supplies,Abuja,Nigeria,Sea Freight,Standard,25191.21,16,Delivered,True,Victor Mensah,TRK-132,2025-10-19,2025-11-12,24,2025-10
+ORD-10752,Prime Exports,São Paulo,Brazil,Rail Freight,Bulk Contract,11404.35,6,Delayed,False,Victor Ojo,TRK-192,2025-04-23,2025-05-13,20,2025-04
+ORD-10263,Metro Supplies,Mumbai,India,Road Freight,Standard,3070.42,8,Delivered,True,Joseph Cole,TRK-365,2026-02-04,2026-02-09,5,2026-02
+ORD-10443,Elite Imports,Cairo,Egypt,Rail Freight,Bulk Contract,14043.75,6,Delivered,True,Samuel Smith,TRK-805,2025-10-05,2025-10-12,7,2025-10
+ORD-10958,Prime Exports,Mumbai,India,Sea Freight,Standard,16485.51,5,Delivered,False,John Cole,TRK-707,2026-01-28,2026-02-25,28,2026-01
+ORD-10304,Prime Partners,Johannesburg,South Africa,Sea Freight,Bulk Contract,9548.96,13,Delivered,True,Unknown,TRK-694,2025-06-19,2025-07-10,21,2025-06
+ORD-10341,Nova Logistics,Port Harcourt,Nigeria,Air Freight,Bulk Contract,7688.7,9,Delivered,True,Joseph Smith,TRK-602,2025-08-27,2025-08-29,2,2025-08
+ORD-10613,Apex Supplies,London,UK,Road Freight,Express,6078.86,7,Delivered,True,Michael Ojo,TRK-793,2025-04-19,2025-04-29,10,2025-04
+ORD-10986,Prime Holdings,Dubai,UAE,Road Freight,Standard,7180.62,8,Delayed,False,Samuel Ade,TRK-265,2026-01-11,2026-01-16,5,2026-01
+ORD-10149,Nova Industries,New York,USA,Sea Freight,Standard,27690.03,10,Delivered,False,Joseph Ade,TRK-945,2025-03-28,2025-04-25,28,2025-03
+ORD-10124,Vision Imports,Dubai,UAE,Air Freight,Standard,13413.64,9,Delivered,True,Victor Khan,TRK-416,2025-08-16,2025-08-21,5,2025-08
+ORD-10802,Titan Exports,Toronto,Canada,Air Freight,Standard,7793.14,4,Delivered,True,James Ade,TRK-679,2025-09-26,2025-10-01,5,2025-09
+ORD-10869,Metro Supplies,Port Harcourt,Nigeria,Road Freight,Same Day,7710.55,14,Delivered,True,Joseph Ali,TRK-539,2025-08-17,2025-08-25,8,2025-08
+ORD-10050,Titan Industries,Lagos,Nigeria,Road Freight,Standard,3452.33,6,Delivered,False,Samuel Cole,TRK-721,2025-02-28,2025-03-11,11,2025-02
+ORD-10353,Elite Partners,Port Harcourt,Nigeria,Air Freight,Express,5798.93,15,Delivered,True,Victor Okafor,TRK-397,2025-02-28,2025-03-01,1,2025-02
+ORD-10945,Elite Partners,Nairobi,Kenya,Road Freight,Standard,6983.31,8,Delivered,True,Joseph Brown,TRK-142,2025-01-26,2025-01-31,5,2025-01
+ORD-10142,Vision Imports,São Paulo,Brazil,Road Freight,Standard,9839.46,1,Delivered,False,David Mensah,TRK-973,2025-08-17,2025-08-22,5,2025-08
+ORD-10470,Prime Industries,Cairo,Egypt,Air Freight,Bulk Contract,5799.24,11,Delivered,True,John Khan,TRK-194,2026-03-01,2026-03-04,3,2026-03
+ORD-10399,Apex Retail,Mumbai,India,Sea Freight,Express,22198.23,8,Delivered,True,Michael Khan,TRK-855,2025-05-15,2025-06-12,28,2025-05
+ORD-10716,Global Supplies,New York,USA,Sea Freight,Same Day,28023.31,5,Delivered,False,Samuel Smith,TRK-227,2026-02-25,2026-03-15,18,2026-02
+ORD-10320,Nova Partners,Toronto,Canada,Road Freight,Same Day,5395.59,14,Delayed,False,Samuel Cole,TRK-488,2025-02-23,2025-03-09,14,2025-02
+ORD-10019,Apex Partners,New York,USA,Rail Freight,Bulk Contract,7351.35,8,In Transit,False,Daniel Khan,TRK-985,2026-01-21,2026-02-08,18,2026-01
+ORD-10826,Titan Partners,Shanghai,China,Road Freight,Standard,6349.89,6,Delivered,True,Ibrahim Brown,TRK-554,2026-01-16,2026-01-20,4,2026-01
+ORD-10806,Global Industries,Accra,Ghana,Road Freight,Standard,7589.6,7,In Transit,False,Joseph Brown,TRK-432,2026-02-26,2026-03-03,5,2026-02
+ORD-10825,Prime Imports,Lagos,Nigeria,Road Freight,Express,7043.34,9,Delivered,True,David Ade,TRK-682,2026-03-05,2026-03-15,10,2026-03
+ORD-10407,Swift Logistics,London,UK,Air Freight,Same Day,11579.61,2,Delivered,True,Daniel Khan,TRK-450,2025-03-06,2025-03-10,4,2025-03
+ORD-10537,Metro Supplies,London,UK,Sea Freight,Standard,28973.87,6,Delivered,False,Michael Ojo,TRK-189,2025-12-14,2026-01-10,27,2025-12
+ORD-10635,Elite Logistics,Lagos,Nigeria,Rail Freight,Standard,15819.59,10,Delivered,True,David Brown,TRK-540,2025-12-13,2025-12-20,7,2025-12
+ORD-10038,Nova Industries,Dubai,UAE,Road Freight,Same Day,6156.68,6,Delivered,True,David Khan,TRK-788,2025-12-04,2025-12-07,3,2025-12
+ORD-10175,Elite Retail,Hamburg,Germany,Air Freight,Express,9777.27,13,Delivered,True,David Smith,TRK-476,2025-02-01,2025-02-02,1,2025-02
+ORD-10245,Global Logistics,Port Harcourt,Nigeria,Road Freight,Same Day,29928.25,13,Delayed,False,Ibrahim Musa,TRK-393,2025-01-09,2025-01-22,13,2025-01
+ORD-10845,Apex Retail,São Paulo,Brazil,Road Freight,Express,7056.05,6,In Transit,False,James Mensah,TRK-185,2025-04-20,2025-04-21,1,2025-04
+ORD-10682,Vision Holdings,Abuja,Nigeria,Road Freight,Standard,57076.81,7,Delayed,False,Joseph Cole,TRK-203,2026-02-08,2026-02-26,18,2026-02
+ORD-10770,Elite Retail,Accra,Ghana,Sea Freight,Standard,21807.4,15,Delivered,True,Victor Ojo,TRK-243,2025-12-03,2025-12-13,10,2025-12
+ORD-10968,Blue Logistics,Dubai,UAE,Road Freight,Express,6456.73,9,Delivered,False,Ibrahim Okafor,TRK-602,2025-04-12,2025-04-23,11,2025-04
+ORD-10154,Vision Logistics,Johannesburg,South Africa,Rail Freight,Express,13914.84,7,Delivered,True,David Ali,TRK-617,2025-03-23,2025-04-01,9,2025-03
+ORD-10287,Swift Retail,Port Harcourt,Nigeria,Rail Freight,Bulk Contract,14902.92,1,Delivered,False,Peter Okafor,TRK-189,2025-08-05,2025-08-11,6,2025-08
+ORD-10617,Swift Supplies,Port Harcourt,Nigeria,Sea Freight,Express,16374.28,14,Delivered,True,James Ojo,TRK-920,2025-01-11,2025-01-26,15,2025-01
+ORD-10569,Prime Supplies,Johannesburg,South Africa,Air Freight,Same Day,10493.5,10,Delivered,True,Samuel Ali,TRK-510,2025-02-23,2025-02-27,4,2025-02
+ORD-10759,Vision Holdings,Toronto,Canada,Sea Freight,Express,14830.69,15,Delayed,False,James Mensah,TRK-122,2025-12-25,2026-02-03,40,2025-12
+ORD-10017,Prime Logistics,Cairo,Egypt,Air Freight,Standard,11056.36,3,Delivered,True,Ibrahim Brown,TRK-919,2025-08-05,2025-08-09,4,2025-08
+ORD-10322,Nova Imports,Abuja,Nigeria,Sea Freight,Standard,20279.8,6,Delivered,True,Peter Musa,TRK-635,2025-12-14,2026-01-09,26,2025-12
+ORD-10255,Blue Exports,Mumbai,India,Sea Freight,Express,23893.2,7,Delivered,True,John Ali,TRK-124,2025-10-30,2025-11-23,24,2025-10
+ORD-10688,Nova Imports,Abuja,Nigeria,Sea Freight,Express,17316.49,12,Delivered,True,Michael Ojo,TRK-852,2025-04-23,2025-04-30,7,2025-04
+ORD-10984,Titan Holdings,Hamburg,Germany,Road Freight,Standard,5649.17,12,Delayed,False,James Brown,TRK-954,2026-01-25,2026-02-01,7,2026-01
+ORD-10190,Global Retail,Nairobi,Kenya,Sea Freight,Standard,16121.95,5,Delivered,True,Ibrahim Cole,TRK-717,2025-07-09,2025-07-21,12,2025-07
+ORD-10115,Nova Logistics,Shanghai,China,Rail Freight,Standard,9443.72,8,Delivered,True,Peter Musa,TRK-175,2025-08-29,2025-09-10,12,2025-08
+ORD-10631,Metro Partners,Cairo,Egypt,Road Freight,Express,6969.76,4,Delivered,True,Ibrahim Ade,TRK-265,2025-11-28,2025-12-04,6,2025-11
+ORD-10606,Apex Imports,São Paulo,Brazil,Sea Freight,Express,16971.15,11,Delivered,True,Ibrahim Ali,TRK-853,2025-02-13,2025-02-21,8,2025-02
+ORD-10180,Prime Partners,Lagos,Nigeria,Road Freight,Express,6934.82,14,Delivered,False,John Smith,TRK-518,2025-06-26,2025-06-27,1,2025-06
+ORD-10301,Swift Logistics,Nairobi,Kenya,Road Freight,Bulk Contract,7565.29,13,Delayed,False,Daniel Smith,TRK-365,2025-11-04,2025-11-19,15,2025-11
+ORD-10940,Apex Retail,Shanghai,China,Road Freight,Bulk Contract,7736.73,14,Delayed,False,Victor Ojo,TRK-534,2026-01-12,2026-01-22,10,2026-01
+ORD-10728,Blue Holdings,Shanghai,China,Road Freight,Standard,7356.01,9,Delivered,False,Victor Brown,TRK-287,2025-01-28,2025-02-09,12,2025-01
+ORD-10739,Metro Exports,Cairo,Egypt,Road Freight,Bulk Contract,4402.51,6,Delayed,False,James Khan,TRK-866,2025-02-25,2025-03-15,18,2025-02
+ORD-10973,Apex Retail,Mumbai,India,Sea Freight,Express,24639.7,7,Delivered,True,John Smith,TRK-597,2025-12-12,2025-12-30,18,2025-12
+ORD-10787,Prime Holdings,Hamburg,Germany,Sea Freight,Standard,25265.01,7,Delivered,True,Daniel Khan,TRK-186,2025-06-29,2025-08-01,33,2025-06
+ORD-10517,Titan Exports,Port Harcourt,Nigeria,Sea Freight,Same Day,18617.69,14,Delivered,True,Ibrahim Mensah,TRK-813,2025-01-24,2025-02-21,28,2025-01
+ORD-10045,Global Industries,Cairo,Egypt,Sea Freight,Express,22679.54,11,In Transit,False,James Ali,TRK-973,2025-01-11,2025-02-11,31,2025-01
+ORD-10926,Global Supplies,London,UK,Road Freight,Bulk Contract,3851.45,11,In Transit,False,Joseph Ojo,TRK-369,2025-09-14,2025-09-20,6,2025-09
+ORD-10157,Prime Holdings,Abuja,Nigeria,Sea Freight,Standard,31138.35,8,Delivered,True,Peter Brown,TRK-671,2026-02-27,2026-03-28,29,2026-02
+ORD-10760,Titan Retail,London,UK,Sea Freight,Standard,30547.24,10,Delivered,True,Michael Musa,TRK-503,2025-06-28,2025-08-01,34,2025-06
+ORD-10171,Metro Retail,São Paulo,Brazil,Road Freight,Bulk Contract,6440.94,5,Delivered,True,Unknown,TRK-636,2025-01-20,2025-01-22,2,2025-01
+ORD-10016,Nova Partners,Johannesburg,South Africa,Air Freight,Standard,8966.26,3,Delivered,True,Michael Ojo,TRK-926,2025-04-20,2025-04-25,5,2025-04
+ORD-10511,Metro Partners,Nairobi,Kenya,Air Freight,Standard,8939.11,16,Delivered,True,David Ojo,TRK-852,2025-04-08,2025-04-11,3,2025-04
+ORD-10048,Apex Retail,Shanghai,China,Sea Freight,Standard,24072.84,9,Delivered,True,Ibrahim Smith,TRK-954,2025-04-19,2025-05-13,24,2025-04
+ORD-10991,Elite Imports,Abuja,Nigeria,Sea Freight,Standard,17612.98,11,Delivered,True,Peter Ade,TRK-297,2025-08-28,2025-09-26,29,2025-08
+ORD-10857,Nova Holdings,Lagos,Nigeria,Air Freight,Express,7661.68,7,Delayed,False,Michael Musa,TRK-500,2025-09-23,2025-09-30,7,2025-09
+ORD-10515,Nova Supplies,Toronto,Canada,Road Freight,Standard,5536.72,1,Delivered,True,David Okafor,TRK-609,2025-06-07,2025-06-10,3,2025-06
+ORD-10911,Titan Partners,Lagos,Nigeria,Rail Freight,Standard,11213.0,5,Delivered,True,Joseph Okafor,TRK-542,2025-04-05,2025-04-23,18,2025-04
+ORD-10480,Elite Supplies,Dubai,UAE,Air Freight,Standard,10606.81,13,Delayed,False,Ibrahim Okafor,TRK-433,2025-05-25,2025-06-03,9,2025-05
+ORD-10283,Vision Retail,Nairobi,Kenya,Air Freight,Standard,3904.69,3,Delivered,True,David Musa,TRK-496,2026-03-09,2026-03-10,1,2026-03
+ORD-10734,Apex Holdings,Port Harcourt,Nigeria,Rail Freight,Standard,7814.41,9,Delayed,False,Peter Ali,TRK-601,2026-01-09,2026-01-29,20,2026-01
+ORD-10669,Metro Industries,Johannesburg,South Africa,Road Freight,Bulk Contract,5301.28,8,Delivered,True,Michael Ojo,TRK-713,2026-01-21,2026-01-30,9,2026-01
+ORD-10225,Blue Holdings,Accra,Ghana,Air Freight,Standard,8843.3,11,Delivered,False,Victor Musa,TRK-768,2025-01-28,2025-01-31,3,2025-01
+ORD-10026,Nova Imports,Abuja,Nigeria,Rail Freight,Standard,9630.77,10,Delivered,True,Peter Khan,TRK-803,2025-02-24,2025-03-12,16,2025-02
+ORD-10798,Global Exports,São Paulo,Brazil,Road Freight,Standard,7114.48,16,Delivered,True,Peter Brown,TRK-859,2025-09-09,2025-09-16,7,2025-09
+ORD-10437,Global Retail,Toronto,Canada,Rail Freight,Express,11884.06,15,Delivered,True,Michael Cole,TRK-377,2025-07-12,2025-07-23,11,2025-07
+ORD-10969,Metro Partners,London,UK,Road Freight,Express,7954.42,8,Delivered,True,Victor Mensah,TRK-998,2025-12-19,2025-12-22,3,2025-12
+ORD-10364,Vision Exports,Cairo,Egypt,Sea Freight,Bulk Contract,18221.68,4,Delivered,True,Michael Okafor,TRK-626,2025-09-04,2025-10-03,29,2025-09
+ORD-10229,Nova Industries,Johannesburg,South Africa,Road Freight,Standard,5003.43,3,Delayed,False,Joseph Ali,TRK-269,2025-03-02,2025-03-10,8,2025-03
+ORD-10037,Vision Partners,Cairo,Egypt,Sea Freight,Standard,3661.78,11,Delivered,True,Daniel Khan,TRK-623,2025-08-09,2025-09-13,35,2025-08
+ORD-10985,Vision Partners,Port Harcourt,Nigeria,Air Freight,Express,10483.89,1,Delivered,True,Peter Khan,TRK-429,2026-03-23,2026-03-24,1,2026-03
+ORD-10374,Elite Partners,Accra,Ghana,Rail Freight,Standard,9859.69,2,Delivered,True,James Smith,TRK-691,2025-10-10,2025-10-27,17,2025-10
+ORD-10469,Prime Retail,Lagos,Nigeria,Sea Freight,Standard,23706.6,5,Delivered,True,Peter Ade,TRK-378,2025-03-26,2025-04-23,28,2025-03
+ORD-10987,Elite Partners,London,UK,Road Freight,Standard,5966.32,6,Delivered,False,Samuel Musa,TRK-528,2025-02-28,2025-03-02,2,2025-02
+ORD-10908,Global Imports,Abuja,Nigeria,Road Freight,Express,2126.73,5,Delivered,True,Victor Mensah,TRK-675,2026-03-19,2026-03-20,1,2026-03
+ORD-10741,Swift Imports,Port Harcourt,Nigeria,Sea Freight,Express,34088.75,6,Delivered,True,John Mensah,TRK-928,2025-04-04,2025-04-29,25,2025-04
+ORD-10194,Apex Retail,Johannesburg,South Africa,Sea Freight,Express,28652.97,5,Delivered,True,Samuel Khan,TRK-437,2025-03-16,2025-03-24,8,2025-03
+ORD-10934,Blue Partners,Dubai,UAE,Road Freight,Express,4036.26,6,Delivered,True,James Brown,TRK-898,2025-10-06,2025-10-09,3,2025-10
+ORD-10881,Prime Retail,London,UK,Sea Freight,Standard,22528.04,1,Delivered,True,James Okafor,TRK-461,2025-05-24,2025-06-13,20,2025-05
+ORD-10503,Prime Supplies,Lagos,Nigeria,Road Freight,Standard,7611.35,10,Delivered,False,Joseph Mensah,TRK-484,2026-03-04,2026-03-09,5,2026-03
+ORD-10989,Vision Imports,Accra,Ghana,Sea Freight,Standard,16589.86,9,Delivered,True,Peter Mensah,TRK-268,2026-01-01,2026-01-22,21,2026-01
+ORD-10847,Swift Holdings,Johannesburg,South Africa,Rail Freight,Standard,12442.33,15,Delivered,True,Peter Cole,TRK-498,2025-08-03,2025-08-15,12,2025-08
+ORD-10579,Prime Retail,Johannesburg,South Africa,Sea Freight,Standard,28872.36,6,Delivered,True,David Brown,TRK-273,2025-05-01,2025-05-31,30,2025-05
+ORD-10988,Nova Industries,Cairo,Egypt,Air Freight,Standard,11810.28,11,In Transit,False,Joseph Mensah,TRK-244,2026-01-04,2026-01-07,3,2026-01
+ORD-10162,Apex Partners,Hamburg,Germany,Rail Freight,Standard,8478.94,3,Delivered,True,John Mensah,TRK-631,2025-06-10,2025-06-21,11,2025-06
+ORD-10717,Swift Imports,London,UK,Road Freight,Standard,5699.18,9,Delivered,True,John Musa,TRK-321,2025-01-06,2025-01-18,12,2025-01
+ORD-10152,Apex Exports,Dubai,UAE,Sea Freight,Express,21853.69,8,Delivered,False,Peter Musa,TRK-675,2026-01-03,2026-01-20,17,2026-01
+ORD-10696,Global Imports,Dubai,UAE,Road Freight,Standard,9624.1,8,Delivered,False,Michael Khan,TRK-562,2025-07-25,2025-08-06,12,2025-07
+ORD-10715,Vision Partners,Cairo,Egypt,Road Freight,Standard,6553.33,11,Delivered,True,David Okafor,TRK-661,2025-02-28,2025-03-04,4,2025-02
+ORD-10928,Apex Supplies,Mumbai,India,Rail Freight,Bulk Contract,16873.63,6,Delivered,True,Victor Ojo,TRK-232,2026-01-27,2026-02-13,17,2026-01
+ORD-10111,Metro Exports,Shanghai,China,Sea Freight,Standard,26803.82,1,Delivered,True,Joseph Ojo,TRK-951,2025-11-24,2025-12-17,23,2025-11
+ORD-10226,Blue Retail,Dubai,UAE,Sea Freight,Standard,15099.92,10,Delivered,True,John Smith,TRK-330,2025-08-16,2025-09-10,25,2025-08
+ORD-10703,Elite Logistics,Abuja,Nigeria,Sea Freight,Standard,12047.33,14,Delayed,False,Peter Mensah,TRK-691,2025-12-24,2026-01-19,26,2025-12
+ORD-10103,Prime Imports,Shanghai,China,Road Freight,Express,6927.06,10,Delayed,False,Samuel Ojo,TRK-329,2026-01-05,2026-01-12,7,2026-01
+ORD-10421,Prime Imports,Johannesburg,South Africa,Road Freight,Standard,3979.1,9,Delivered,True,Victor Okafor,TRK-203,2025-09-28,2025-09-30,2,2025-09
+ORD-10419,Metro Imports,Abuja,Nigeria,Air Freight,Express,11460.81,7,Delivered,True,Joseph Okafor,TRK-113,2025-09-08,2025-09-10,2,2025-09
+ORD-10848,Metro Logistics,Shanghai,China,Air Freight,Express,6499.17,5,Delivered,True,Samuel Ojo,TRK-251,2025-02-09,2025-02-11,2,2025-02
+ORD-10796,Global Retail,Accra,Ghana,Road Freight,Same Day,6785.81,11,Delivered,True,David Smith,TRK-472,2025-08-07,2025-08-16,9,2025-08
+ORD-10672,Global Retail,Mumbai,India,Road Freight,Same Day,7709.2,2,Delivered,True,Peter Khan,TRK-192,2025-07-09,2025-07-14,5,2025-07
+ORD-10119,Metro Supplies,Hamburg,Germany,Air Freight,Standard,7345.53,11,Delivered,True,Peter Okafor,TRK-671,2025-07-29,2025-08-01,3,2025-07
+ORD-10053,Metro Partners,New York,USA,Sea Freight,Standard,35203.3,8,Delivered,False,Samuel Ali,TRK-280,2026-03-11,2026-04-03,23,2026-03
+ORD-10151,Global Exports,New York,USA,Rail Freight,Standard,14615.53,10,Delayed,False,Daniel Ali,TRK-595,2025-12-17,2026-01-01,15,2025-12
+ORD-10403,Vision Retail,Shanghai,China,Road Freight,Standard,6399.84,6,Delivered,True,John Ali,TRK-917,2025-10-01,2025-10-03,2,2025-10
+ORD-10963,Nova Holdings,São Paulo,Brazil,Sea Freight,Express,4287.99,6,Delivered,True,Daniel Musa,TRK-229,2026-03-03,2026-03-11,8,2026-03
+ORD-10207,Vision Holdings,Abuja,Nigeria,Air Freight,Standard,9830.79,5,Delivered,True,David Ade,TRK-191,2025-05-19,2025-05-20,1,2025-05
+ORD-10658,Prime Imports,Abuja,Nigeria,Road Freight,Express,4082.8,6,Delivered,True,Joseph Musa,TRK-690,2026-02-12,2026-02-15,3,2026-02
+ORD-10778,Elite Holdings,Abuja,Nigeria,Road Freight,Standard,7644.45,4,In Transit,False,Daniel Cole,TRK-230,2025-07-19,2025-07-23,4,2025-07
+ORD-10008,Swift Partners,Toronto,Canada,Road Freight,Standard,4176.9,9,Delivered,True,David Ade,TRK-981,2025-10-26,2025-11-03,8,2025-10
+ORD-10824,Swift Holdings,Shanghai,China,Road Freight,Bulk Contract,8137.29,18,Delivered,True,John Ali,TRK-480,2025-04-18,2025-04-23,5,2025-04
+ORD-10036,Apex Exports,Accra,Ghana,Road Freight,Standard,5935.51,14,Delivered,True,Joseph Cole,TRK-408,2025-10-11,2025-10-15,4,2025-10
+ORD-10452,Elite Exports,São Paulo,Brazil,Sea Freight,Bulk Contract,23337.69,8,Delivered,True,Daniel Ojo,TRK-192,2025-08-05,2025-08-24,19,2025-08
+ORD-10651,Vision Holdings,Hamburg,Germany,Road Freight,Express,5685.07,4,Delayed,False,Samuel Mensah,TRK-617,2025-10-27,2025-11-07,11,2025-10
+ORD-10253,Swift Imports,São Paulo,Brazil,Road Freight,Standard,4933.69,4,Delivered,True,Victor Ade,TRK-510,2025-07-10,2025-07-13,3,2025-07
+ORD-10303,Elite Exports,Shanghai,China,Air Freight,Express,7065.53,3,Delivered,True,Peter Okafor,TRK-327,2025-05-31,2025-06-01,1,2025-05
+ORD-10762,Prime Exports,São Paulo,Brazil,Air Freight,Standard,8069.48,12,Delivered,True,Ibrahim Ali,TRK-795,2026-01-12,2026-01-13,1,2026-01
+ORD-10571,Apex Industries,Cairo,Egypt,Air Freight,Bulk Contract,8624.86,8,Delivered,True,Daniel Cole,TRK-514,2025-05-23,2025-05-28,5,2025-05
+ORD-10623,Global Supplies,Abuja,Nigeria,Road Freight,Standard,6061.35,4,Delivered,True,Ibrahim Smith,TRK-421,2025-08-25,2025-08-29,4,2025-08
+ORD-10858,Swift Holdings,Nairobi,Kenya,Road Freight,Standard,6597.56,8,Delivered,True,Peter Musa,TRK-262,2025-10-23,2025-10-31,8,2025-10
+ORD-10758,Apex Logistics,Abuja,Nigeria,Sea Freight,Bulk Contract,32594.15,10,Delivered,True,Peter Mensah,TRK-947,2025-11-20,2025-12-06,16,2025-11
+ORD-10262,Elite Imports,Cairo,Egypt,Sea Freight,Express,16657.19,1,Delivered,False,David Ojo,TRK-204,2025-03-31,2025-04-08,8,2025-03
+ORD-10610,Swift Partners,Accra,Ghana,Road Freight,Express,3862.32,9,Delivered,True,John Khan,TRK-252,2025-06-10,2025-06-17,7,2025-06
+ORD-10297,Swift Exports,New York,USA,Sea Freight,Standard,29262.78,5,Delayed,False,Joseph Ade,TRK-329,2026-01-28,2026-03-02,33,2026-01
+ORD-10414,Apex Industries,Johannesburg,South Africa,Rail Freight,Express,10529.35,6,Delayed,False,Samuel Smith,TRK-140,2026-02-17,2026-03-01,12,2026-02
+ORD-10150,Apex Logistics,Shanghai,China,Air Freight,Standard,6927.51,5,Delivered,True,Daniel Musa,TRK-396,2025-10-23,2025-10-26,3,2025-10
+ORD-10640,Metro Imports,Shanghai,China,Road Freight,Standard,6240.37,7,Delivered,True,Samuel Musa,TRK-531,2025-02-13,2025-02-19,6,2025-02
+ORD-10906,Nova Retail,Mumbai,India,Sea Freight,Express,33285.54,11,Delivered,True,John Ali,TRK-228,2025-06-04,2025-07-08,34,2025-06
+ORD-10550,Swift Imports,Toronto,Canada,Rail Freight,Standard,15493.04,1,Delayed,False,James Ojo,TRK-988,2025-03-13,2025-04-06,24,2025-03
+ORD-10807,Global Logistics,Abuja,Nigeria,Rail Freight,Bulk Contract,11368.32,20,Delivered,False,Peter Khan,TRK-848,2025-03-10,2025-03-21,11,2025-03
+ORD-10488,Swift Exports,Nairobi,Kenya,Road Freight,Standard,5185.85,1,Delivered,False,John Okafor,TRK-763,2025-07-16,2025-07-23,7,2025-07
+ORD-10710,Nova Partners,Nairobi,Kenya,Air Freight,Standard,10345.74,12,Delivered,True,Daniel Ojo,TRK-689,2025-07-24,2025-07-29,5,2025-07
+ORD-10147,Prime Exports,Port Harcourt,Nigeria,Road Freight,Express,6642.63,5,Delivered,True,James Mensah,TRK-265,2025-04-04,2025-04-06,2,2025-04
+ORD-10146,Prime Partners,Toronto,Canada,Sea Freight,Standard,17874.45,11,Delivered,True,Daniel Musa,TRK-452,2025-10-22,2025-11-03,12,2025-10
+ORD-10736,Global Industries,Dubai,UAE,Road Freight,Standard,5758.77,8,Delivered,True,John Mensah,TRK-367,2025-07-17,2025-07-25,8,2025-07
+ORD-10949,Elite Industries,Accra,Ghana,Rail Freight,Bulk Contract,13963.22,6,Delivered,True,Michael Ali,TRK-950,2025-11-08,2025-11-16,8,2025-11
+ORD-10755,Apex Holdings,Shanghai,China,Sea Freight,Standard,9630.77,7,Delivered,True,Peter Brown,TRK-916,2025-06-09,2025-06-20,11,2025-06
+ORD-10659,Swift Logistics,Mumbai,India,Air Freight,Express,7476.22,7,Delivered,True,James Khan,TRK-351,2025-09-01,2025-09-05,4,2025-09
+ORD-10348,Titan Holdings,Johannesburg,South Africa,Air Freight,Standard,9815.33,2,Delivered,True,Ibrahim Ojo,TRK-745,2025-05-09,2025-05-14,5,2025-05
+ORD-10463,Nova Partners,Toronto,Canada,Sea Freight,Express,18087.55,9,Delivered,True,Victor Ojo,TRK-604,2025-09-27,2025-10-22,25,2025-09
+ORD-10325,Vision Supplies,Lagos,Nigeria,Sea Freight,Express,34942.69,12,Delivered,True,Daniel Ojo,TRK-423,2026-02-23,2026-03-11,16,2026-02
+ORD-10186,Blue Retail,Accra,Ghana,Sea Freight,Bulk Contract,32158.01,11,Delivered,True,Samuel Musa,TRK-326,2025-10-23,2025-11-21,29,2025-10
+ORD-10123,Swift Exports,Mumbai,India,Sea Freight,Express,18675.38,5,Delivered,True,Joseph Mensah,TRK-838,2025-12-05,2025-12-22,17,2025-12
+ORD-10870,Elite Retail,Nairobi,Kenya,Road Freight,Standard,5811.99,7,Delivered,True,Joseph Ali,TRK-400,2025-02-02,2025-02-11,9,2025-02
+ORD-10608,Swift Partners,Hamburg,Germany,Sea Freight,Same Day,17285.57,9,Delivered,True,Peter Ojo,TRK-235,2025-03-09,2025-04-05,27,2025-03
+ORD-10143,Metro Industries,Abuja,Nigeria,Sea Freight,Bulk Contract,20937.5,10,Delivered,True,David Musa,TRK-655,2025-02-14,2025-03-21,35,2025-02
+ORD-10978,Apex Exports,Lagos,Nigeria,Sea Freight,Express,7050.28,20,Delivered,True,James Okafor,TRK-178,2025-05-20,2025-06-21,32,2025-05
+ORD-10197,Metro Logistics,Lagos,Nigeria,Sea Freight,Bulk Contract,30256.08,6,Delivered,True,Joseph Cole,TRK-594,2025-12-29,2026-01-12,14,2025-12
+ORD-10609,Titan Industries,Abuja,Nigeria,Sea Freight,Standard,16152.57,16,Delivered,True,Ibrahim Smith,TRK-997,2025-03-01,2025-03-21,20,2025-03
+ORD-10279,Swift Holdings,Dubai,UAE,Air Freight,Bulk Contract,9986.13,6,Delivered,False,Samuel Okafor,TRK-660,2025-06-13,2025-06-16,3,2025-06
+ORD-10293,Titan Holdings,Cairo,Egypt,Road Freight,Express,5173.15,4,Delayed,False,Samuel Musa,TRK-682,2026-02-25,2026-03-06,9,2026-02
+ORD-10400,Metro Partners,Accra,Ghana,Sea Freight,Standard,28567.99,5,Delivered,True,Daniel Musa,TRK-378,2025-03-29,2025-04-08,10,2025-03
+ORD-10122,Swift Supplies,Lagos,Nigeria,Sea Freight,Standard,13597.93,6,Delivered,True,James Okafor,TRK-619,2026-01-28,2026-02-22,25,2026-01
+ORD-10183,Vision Industries,Lagos,Nigeria,Rail Freight,Standard,12784.32,8,Delivered,True,Samuel Smith,TRK-293,2025-08-06,2025-08-19,13,2025-08
+ORD-10202,Nova Logistics,Toronto,Canada,Road Freight,Standard,5189.88,10,Delivered,False,Samuel Brown,TRK-116,2025-02-08,2025-02-20,12,2025-02
+ORD-10438,Metro Supplies,Lagos,Nigeria,Sea Freight,Bulk Contract,18376.72,8,Delivered,True,John Smith,TRK-988,2025-12-05,2025-12-23,18,2025-12
+ORD-10246,Titan Supplies,New York,USA,Road Freight,Express,6139.26,4,Delivered,True,James Okafor,TRK-623,2025-07-25,2025-07-26,1,2025-07
+ORD-10415,Vision Retail,Dubai,UAE,Road Freight,Express,3579.99,4,Delivered,True,Joseph Musa,TRK-264,2025-09-08,2025-09-10,2,2025-09
+ORD-10792,Apex Logistics,Mumbai,India,Air Freight,Standard,10072.04,10,Delivered,True,Ibrahim Ojo,TRK-396,2026-01-28,2026-01-30,2,2026-01
+ORD-10781,Global Supplies,Cairo,Egypt,Road Freight,Bulk Contract,1636.37,11,Delivered,False,James Musa,TRK-604,2025-02-09,2025-02-14,5,2025-02
+ORD-10923,Metro Industries,Toronto,Canada,Rail Freight,Express,16429.98,4,Delivered,True,Joseph Musa,TRK-973,2025-04-08,2025-04-25,17,2025-04
+ORD-10637,Prime Supplies,New York,USA,Air Freight,Standard,12032.74,8,In Transit,False,Joseph Cole,TRK-900,2026-02-14,2026-02-18,4,2026-02
+ORD-10402,Swift Retail,São Paulo,Brazil,Sea Freight,Standard,18958.53,6,Delayed,False,John Ade,TRK-635,2025-08-15,2025-09-07,23,2025-08
+ORD-10800,Prime Industries,Lagos,Nigeria,Road Freight,Bulk Contract,5670.79,13,Delivered,True,James Ojo,TRK-879,2025-04-08,2025-04-13,5,2025-04
+ORD-10786,Vision Partners,Accra,Ghana,Sea Freight,Express,24054.91,2,Delivered,True,John Brown,TRK-106,2025-04-22,2025-05-08,16,2025-04
+ORD-10735,Apex Retail,Accra,Ghana,Road Freight,Express,8153.94,5,Delivered,False,Peter Musa,TRK-826,2025-01-20,2025-01-21,1,2025-01
+ORD-10930,Vision Logistics,Mumbai,India,Road Freight,Standard,5758.24,11,Delayed,False,Ibrahim Ali,TRK-812,2025-12-16,2026-01-04,19,2025-12
+ORD-10219,Metro Supplies,Dubai,UAE,Air Freight,Express,4741.54,7,Delivered,True,Samuel Khan,TRK-628,2025-02-04,2025-02-06,2,2025-02
+ORD-10641,Metro Logistics,Mumbai,India,Sea Freight,Bulk Contract,26956.76,11,Delivered,False,Daniel Mensah,TRK-888,2025-07-29,2025-08-22,24,2025-07
+ORD-10932,Elite Logistics,São Paulo,Brazil,Air Freight,Standard,12260.85,1,Delivered,True,John Khan,TRK-932,2025-04-27,2025-05-01,4,2025-04
+ORD-10852,Apex Industries,Johannesburg,South Africa,Sea Freight,Standard,24868.73,7,Delivered,True,Samuel Musa,TRK-709,2026-01-27,2026-02-16,20,2026-01
+ORD-10823,Swift Retail,Shanghai,China,Air Freight,Express,8532.14,11,In Transit,False,Daniel Mensah,TRK-955,2025-02-26,2025-02-27,1,2025-02
+ORD-10937,Nova Holdings,Nairobi,Kenya,Road Freight,Express,8358.56,13,Delivered,False,James Okafor,TRK-161,2025-02-28,2025-03-01,1,2025-02
+ORD-10624,Swift Imports,Hamburg,Germany,Road Freight,Express,6420.81,1,Delivered,False,Samuel Okafor,TRK-864,2026-02-18,2026-02-22,4,2026-02
+ORD-10855,Vision Holdings,Nairobi,Kenya,Road Freight,Express,7992.75,7,Delivered,True,Ibrahim Ade,TRK-483,2026-03-15,2026-03-23,8,2026-03
+ORD-10950,Nova Holdings,Hamburg,Germany,Air Freight,Express,10742.39,6,Delivered,False,Victor Okafor,TRK-967,2025-11-29,2025-11-30,1,2025-11
+ORD-10386,Vision Logistics,Nairobi,Kenya,Sea Freight,Standard,26426.85,11,Delivered,True,Victor Ade,TRK-968,2025-03-21,2025-04-24,34,2025-03
+ORD-10992,Titan Imports,Accra,Ghana,Sea Freight,Bulk Contract,28671.88,10,Delivered,True,David Cole,TRK-256,2026-01-09,2026-01-28,19,2026-01
+ORD-10509,Vision Supplies,Cairo,Egypt,Sea Freight,Express,19757.57,9,Delayed,False,Joseph Musa,TRK-467,2025-02-05,2025-03-05,28,2025-02
+ORD-10267,Elite Logistics,Cairo,Egypt,Air Freight,Standard,7370.41,8,Delayed,False,Ibrahim Brown,TRK-591,2025-09-27,2025-10-06,9,2025-09
+ORD-10836,Apex Logistics,Hamburg,Germany,Road Freight,Bulk Contract,5294.84,4,Delivered,True,Ibrahim Khan,TRK-313,2026-02-07,2026-02-11,4,2026-02
+ORD-10441,Global Retail,Accra,Ghana,Sea Freight,Same Day,18573.92,12,Delivered,True,Michael Mensah,TRK-449,2026-02-20,2026-03-03,11,2026-02
+ORD-10496,Vision Exports,Port Harcourt,Nigeria,Rail Freight,Express,11134.88,5,Delivered,True,Victor Ade,TRK-451,2025-07-09,2025-07-25,16,2025-07
+ORD-10112,Prime Holdings,Toronto,Canada,Rail Freight,Standard,10348.24,12,Delayed,False,James Brown,TRK-326,2025-05-05,2025-05-22,17,2025-05
+ORD-10691,Prime Logistics,Toronto,Canada,Air Freight,Bulk Contract,14393.27,5,Delivered,True,Samuel Ali,TRK-770,2025-04-11,2025-04-12,1,2025-04
+ORD-10232,Titan Holdings,Shanghai,China,Air Freight,Standard,8719.18,7,Delivered,True,Ibrahim Ojo,TRK-177,2025-05-07,2025-05-11,4,2025-05
+ORD-10886,Metro Holdings,Port Harcourt,Nigeria,Sea Freight,Standard,17641.45,8,Delivered,True,Michael Mensah,TRK-506,2025-06-30,2025-07-18,18,2025-06
+ORD-10607,Nova Logistics,Hamburg,Germany,Sea Freight,Standard,19935.35,12,Delivered,True,John Smith,TRK-616,2025-06-20,2025-07-07,17,2025-06
+ORD-10671,Apex Industries,Mumbai,India,Road Freight,Express,6786.49,12,Delivered,True,Ibrahim Mensah,TRK-959,2026-03-03,2026-03-13,10,2026-03
+ORD-10373,Titan Holdings,New York,USA,Sea Freight,Bulk Contract,23307.37,4,Delivered,True,Joseph Brown,TRK-726,2025-02-24,2025-03-10,14,2025-02
+ORD-10233,Vision Industries,New York,USA,Road Freight,Express,7105.5,11,Delivered,False,Joseph Ade,TRK-989,2026-01-19,2026-01-22,3,2026-01
+ORD-10801,Elite Industries,Nairobi,Kenya,Sea Freight,Standard,17478.25,4,Delivered,True,Peter Ojo,TRK-744,2025-08-03,2025-08-30,27,2025-08
+ORD-10676,Prime Partners,Cairo,Egypt,Road Freight,Bulk Contract,6974.63,11,Delivered,False,Daniel Brown,TRK-629,2025-06-15,2025-06-23,8,2025-06
+ORD-10317,Titan Industries,Nairobi,Kenya,Sea Freight,Same Day,14915.27,1,Delivered,True,Peter Ali,TRK-856,2025-01-26,2025-02-08,13,2025-01
+ORD-10648,Blue Imports,Abuja,Nigeria,Air Freight,Express,11297.69,6,Delivered,True,Peter Smith,TRK-391,2025-06-02,2025-06-04,2,2025-06
+ORD-10410,Metro Exports,Lagos,Nigeria,Air Freight,Express,7706.78,13,Delivered,True,John Musa,TRK-633,2025-12-07,2025-12-08,1,2025-12
+ORD-10915,Blue Industries,Dubai,UAE,Road Freight,Standard,7274.79,8,Delivered,True,Victor Ali,TRK-625,2025-03-23,2025-03-30,7,2025-03
+ORD-10709,Titan Imports,São Paulo,Brazil,Road Freight,Standard,8751.24,10,Delivered,True,Victor Ojo,TRK-382,2025-08-10,2025-08-22,12,2025-08
+ORD-10358,Blue Logistics,Abuja,Nigeria,Road Freight,Bulk Contract,6205.61,8,Delivered,True,Victor Smith,TRK-656,2026-02-21,2026-03-04,11,2026-02
+ORD-10258,Swift Imports,Abuja,Nigeria,Road Freight,Standard,6901.65,4,Delivered,True,James Smith,TRK-971,2025-07-21,2025-07-24,3,2025-07
+ORD-10744,Vision Partners,Lagos,Nigeria,Air Freight,Standard,5185.86,13,Delivered,False,Peter Cole,TRK-539,2025-11-05,2025-11-10,5,2025-11
+ORD-10627,Swift Imports,Nairobi,Kenya,Air Freight,Standard,12069.17,3,In Transit,False,Ibrahim Musa,TRK-295,2026-03-16,2026-03-17,1,2026-03
+ORD-10632,Nova Partners,Accra,Ghana,Road Freight,Standard,6304.85,2,Delivered,True,Samuel Smith,TRK-840,2025-09-17,2025-09-22,5,2025-09
+ORD-10282,Nova Partners,Hamburg,Germany,Sea Freight,Standard,30408.5,6,Delivered,True,Michael Okafor,TRK-126,2025-01-02,2025-01-25,23,2025-01
+ORD-10376,Prime Exports,Mumbai,India,Sea Freight,Express,15168.89,12,Delivered,True,Daniel Cole,TRK-545,2025-12-28,2026-01-07,10,2025-12
+ORD-10384,Elite Exports,Lagos,Nigeria,Road Freight,Standard,4871.46,15,Delivered,True,Daniel Brown,TRK-462,2025-07-24,2025-08-05,12,2025-07
+ORD-10224,Vision Exports,Abuja,Nigeria,Air Freight,Express,7715.33,3,Delivered,True,Victor Mensah,TRK-601,2025-08-03,2025-08-07,4,2025-08
+ORD-10965,Elite Industries,New York,USA,Air Freight,Standard,5926.13,9,Delivered,True,James Ojo,TRK-745,2026-02-11,2026-02-13,2,2026-02
+ORD-10472,Elite Supplies,Shanghai,China,Air Freight,Same Day,13616.59,3,Delivered,True,John Smith,TRK-145,2025-03-09,2025-03-11,2,2025-03
+ORD-10347,Prime Exports,Abuja,Nigeria,Sea Freight,Bulk Contract,26151.71,6,Delayed,False,John Ojo,TRK-834,2026-01-15,2026-02-23,39,2026-01
+ORD-10505,Apex Holdings,Cairo,Egypt,Road Freight,Express,8371.31,8,Delayed,False,Peter Ade,TRK-364,2025-05-12,2025-05-19,7,2025-05
+ORD-10639,Blue Partners,London,UK,Sea Freight,Bulk Contract,23344.34,6,Delivered,True,Ibrahim Ade,TRK-351,2025-07-06,2025-07-26,20,2025-07
+ORD-10797,Metro Imports,Accra,Ghana,Rail Freight,Express,3729.74,3,Delivered,True,James Ojo,TRK-386,2025-01-25,2025-01-31,6,2025-01
+ORD-10946,Metro Logistics,London,UK,Road Freight,Standard,5214.51,7,Delivered,True,Joseph Khan,TRK-458,2025-05-13,2025-05-19,6,2025-05
+ORD-10922,Apex Supplies,Hamburg,Germany,Air Freight,Same Day,9399.64,3,Delivered,False,Peter Mensah,TRK-798,2025-01-18,2025-01-20,2,2025-01
+ORD-10619,Nova Exports,Dubai,UAE,Road Freight,Standard,7024.17,14,Delivered,True,Ibrahim Ali,TRK-195,2025-08-05,2025-08-08,3,2025-08
+ORD-10872,Metro Imports,Abuja,Nigeria,Sea Freight,Standard,15508.53,8,Delivered,True,Daniel Cole,TRK-914,2025-06-10,2025-06-23,13,2025-06
+ORD-10820,Vision Holdings,Hamburg,Germany,Sea Freight,Express,22169.54,13,Delivered,True,Daniel Ali,TRK-716,2025-06-15,2025-06-28,13,2025-06
+ORD-10645,Titan Supplies,Hamburg,Germany,Road Freight,Express,6699.44,17,Delayed,False,John Musa,TRK-442,2026-02-05,2026-02-23,18,2026-02
+ORD-10863,Global Holdings,Accra,Ghana,Road Freight,Standard,5035.27,11,Delivered,True,David Ojo,TRK-740,2025-07-05,2025-07-10,5,2025-07
+ORD-10977,Vision Logistics,London,UK,Road Freight,Bulk Contract,4927.81,13,Delivered,True,Samuel Smith,TRK-408,2025-01-11,2025-01-21,10,2025-01
+ORD-10577,Titan Industries,Port Harcourt,Nigeria,Sea Freight,Standard,33494.11,12,Delivered,True,John Ade,TRK-704,2025-07-13,2025-08-11,29,2025-07
+ORD-10085,Vision Retail,New York,USA,Sea Freight,Standard,15773.4,4,Delayed,False,Michael Cole,TRK-921,2026-02-03,2026-03-10,35,2026-02
+ORD-10242,Blue Retail,Mumbai,India,Air Freight,Express,7109.12,2,Delivered,True,Unknown,TRK-310,2025-08-08,2025-08-10,2,2025-08
+ORD-10698,Apex Holdings,Dubai,UAE,Sea Freight,Standard,12570.12,4,Delivered,True,Peter Ojo,TRK-424,2025-09-20,2025-10-19,29,2025-09
+ORD-10159,Nova Retail,Hamburg,Germany,Road Freight,Standard,6583.5,7,In Transit,False,Joseph Brown,TRK-619,2025-06-13,2025-06-17,4,2025-06
+ORD-10524,Metro Holdings,Port Harcourt,Nigeria,Air Freight,Standard,12691.35,13,Delivered,True,Michael Brown,TRK-335,2025-02-06,2025-02-08,2,2025-02
+ORD-10035,Metro Industries,Cairo,Egypt,Air Freight,Bulk Contract,9903.49,14,Delivered,True,David Smith,TRK-619,2026-01-04,2026-01-06,2,2026-01
+ORD-10540,Metro Partners,Shanghai,China,Road Freight,Bulk Contract,5372.43,6,Delivered,True,Joseph Musa,TRK-962,2025-06-21,2025-06-29,8,2025-06
+ORD-10654,Swift Exports,London,UK,Air Freight,Standard,11714.74,9,In Transit,False,Joseph Ali,TRK-149,2025-06-05,2025-06-08,3,2025-06
+ORD-10907,Global Retail,Cairo,Egypt,Road Freight,Standard,5516.64,4,Delayed,False,David Brown,TRK-708,2025-09-23,2025-10-10,17,2025-09
+ORD-10874,Titan Holdings,Mumbai,India,Sea Freight,Bulk Contract,23327.07,12,Delivered,True,David Okafor,TRK-563,2025-01-26,2025-03-02,35,2025-01
+ORD-10864,Titan Logistics,Abuja,Nigeria,Sea Freight,Standard,24571.01,15,Delayed,False,Samuel Cole,TRK-746,2025-11-21,2025-12-23,32,2025-11
+ORD-10962,Elite Exports,São Paulo,Brazil,Sea Freight,Express,36518.58,4,Delivered,True,John Cole,TRK-140,2025-04-29,2025-05-28,29,2025-04
+ORD-10733,Prime Industries,London,UK,Road Freight,Standard,9005.83,9,Delivered,True,Samuel Ojo,TRK-300,2025-08-21,2025-08-27,6,2025-08
+ORD-10095,Blue Industries,Port Harcourt,Nigeria,Road Freight,Standard,5196.27,11,Delayed,False,Samuel Cole,TRK-102,2025-10-11,2025-10-22,11,2025-10
+ORD-10563,Metro Logistics,New York,USA,Air Freight,Standard,9756.59,4,Delivered,True,David Mensah,TRK-966,2025-11-05,2025-11-07,2,2025-11
+ORD-10240,Swift Supplies,Johannesburg,South Africa,Sea Freight,Standard,21104.58,4,Delivered,False,Victor Cole,TRK-108,2026-02-21,2026-03-27,34,2026-02
+ORD-10742,Swift Supplies,Mumbai,India,Air Freight,Same Day,9561.71,11,Delayed,False,James Okafor,TRK-486,2025-08-14,2025-08-21,7,2025-08
+ORD-10574,Elite Logistics,Dubai,UAE,Road Freight,Standard,8870.11,4,Delivered,True,John Ali,TRK-221,2025-09-09,2025-09-19,10,2025-09
+ORD-10690,Blue Retail,London,UK,Air Freight,Standard,10694.81,6,Delivered,True,Samuel Khan,TRK-368,2025-10-27,2025-10-30,3,2025-10
+ORD-10460,Elite Exports,Abuja,Nigeria,Sea Freight,Standard,29515.42,3,Delivered,True,Daniel Cole,TRK-468,2025-11-09,2025-12-10,31,2025-11
+ORD-10553,Titan Holdings,Dubai,UAE,Sea Freight,Express,26289.42,3,Delivered,True,Samuel Ojo,TRK-804,2025-06-03,2025-06-30,27,2025-06
+ORD-10895,Swift Industries,Abuja,Nigeria,Sea Freight,Standard,8873.79,8,Delivered,False,Daniel Ade,TRK-350,2025-03-17,2025-04-09,23,2025-03
+ORD-10206,Swift Holdings,Cairo,Egypt,Air Freight,Express,5164.71,13,Delayed,False,Peter Brown,TRK-209,2026-01-01,2026-01-06,5,2026-01
+ORD-10392,Metro Partners,Lagos,Nigeria,Air Freight,Standard,10399.48,12,In Transit,False,James Smith,TRK-675,2026-03-11,2026-03-16,5,2026-03
+ORD-10794,Nova Exports,Dubai,UAE,Road Freight,Bulk Contract,4510.34,8,Delivered,True,Michael Okafor,TRK-235,2025-09-15,2025-09-26,11,2025-09
+ORD-10397,Metro Partners,Nairobi,Kenya,Sea Freight,Express,14432.6,12,Delivered,True,Ibrahim Mensah,TRK-288,2025-11-06,2025-12-04,28,2025-11
+ORD-10766,Apex Retail,Hamburg,Germany,Sea Freight,Express,24262.17,7,Delivered,True,Joseph Mensah,TRK-201,2025-10-31,2025-11-13,13,2025-10
+ORD-10865,Global Exports,Hamburg,Germany,Road Freight,Standard,5597.76,6,Delivered,False,Victor Smith,TRK-224,2025-06-27,2025-07-06,9,2025-06
+ORD-10217,Nova Exports,Nairobi,Kenya,Sea Freight,Standard,32516.5,8,Delivered,True,Peter Ade,TRK-594,2025-10-22,2025-11-08,17,2025-10
+ORD-10004,Vision Industries,Abuja,Nigeria,Air Freight,Standard,7826.31,10,Delivered,False,Samuel Brown,TRK-463,2025-02-10,2025-02-12,2,2025-02
+ORD-10768,Prime Exports,Hamburg,Germany,Sea Freight,Bulk Contract,25595.2,5,Delivered,True,Joseph Mensah,TRK-105,2026-01-21,2026-02-24,34,2026-01
+ORD-10642,Apex Logistics,Lagos,Nigeria,Road Freight,Standard,4585.22,2,Delivered,True,Ibrahim Ade,TRK-776,2025-06-23,2025-06-30,7,2025-06
+ORD-10914,Nova Partners,Lagos,Nigeria,Sea Freight,Standard,21309.88,8,Delivered,True,John Brown,TRK-242,2025-10-25,2025-11-13,19,2025-10
+ORD-10612,Blue Retail,London,UK,Sea Freight,Standard,20702.99,7,Delayed,False,Samuel Mensah,TRK-867,2026-03-20,2026-04-05,16,2026-03
+ORD-10738,Elite Holdings,London,UK,Rail Freight,Bulk Contract,11576.68,9,Delivered,True,Joseph Smith,TRK-851,2025-08-07,2025-08-16,9,2025-08
+ORD-10546,Nova Imports,Toronto,Canada,Air Freight,Standard,10819.07,8,Delivered,True,Daniel Brown,TRK-194,2025-12-14,2025-12-19,5,2025-12
+ORD-10725,Global Imports,Hamburg,Germany,Rail Freight,Standard,13080.92,14,Delivered,True,John Cole,TRK-877,2026-01-15,2026-01-23,8,2026-01
+ORD-10683,Nova Supplies,Johannesburg,South Africa,Road Freight,Express,5950.85,4,Delivered,True,Joseph Khan,TRK-686,2025-09-22,2025-09-26,4,2025-09
+ORD-10098,Global Logistics,Dubai,UAE,Sea Freight,Bulk Contract,15813.0,8,Delivered,True,Daniel Ali,TRK-536,2026-02-06,2026-03-09,31,2026-02
+ORD-10804,Global Partners,London,UK,Road Freight,Standard,6581.54,6,Delivered,True,Victor Musa,TRK-365,2025-04-05,2025-04-07,2,2025-04
+ORD-10727,Global Holdings,Nairobi,Kenya,Road Freight,Standard,7017.92,1,Delivered,True,James Ade,TRK-334,2025-08-16,2025-08-23,7,2025-08
+ORD-10573,Nova Supplies,Abuja,Nigeria,Sea Freight,Standard,14326.07,2,Delivered,True,David Musa,TRK-885,2025-11-06,2025-12-07,31,2025-11
+ORD-10406,Blue Industries,Abuja,Nigeria,Air Freight,Standard,9630.77,8,Delivered,True,John Mensah,TRK-150,2025-11-13,2025-11-17,4,2025-11
+ORD-10502,Blue Retail,Lagos,Nigeria,Road Freight,Bulk Contract,7256.8,9,Delivered,True,James Khan,TRK-134,2025-02-20,2025-03-02,10,2025-02
+ORD-10047,Apex Logistics,Cairo,Egypt,Sea Freight,Express,19255.24,2,Delivered,False,David Ali,TRK-238,2025-03-26,2025-04-18,23,2025-03
+ORD-10779,Global Industries,Accra,Ghana,Air Freight,Standard,12731.72,6,Delivered,True,Michael Cole,TRK-528,2025-03-06,2025-03-08,2,2025-03
+ORD-10839,Titan Holdings,São Paulo,Brazil,Sea Freight,Bulk Contract,28988.18,6,In Transit,False,Ibrahim Cole,TRK-796,2025-10-19,2025-11-13,25,2025-10
+ORD-10200,Global Supplies,Cairo,Egypt,Sea Freight,Standard,10839.01,5,Delivered,False,Ibrahim Ali,TRK-486,2025-06-03,2025-07-04,31,2025-06
+ORD-10134,Swift Supplies,London,UK,Sea Freight,Express,18919.69,8,Delayed,False,Daniel Ade,TRK-400,2025-12-17,2026-01-12,26,2025-12
+ORD-10027,Titan Logistics,New York,USA,Road Freight,Standard,7855.8,11,Delivered,True,John Brown,TRK-889,2026-03-10,2026-03-12,2,2026-03
+ORD-10947,Apex Supplies,Abuja,Nigeria,Air Freight,Standard,8779.09,6,Delivered,True,Ibrahim Smith,TRK-246,2025-05-02,2025-05-04,2,2025-05
+ORD-10230,Elite Exports,Hamburg,Germany,Air Freight,Standard,13911.81,8,Delivered,True,Peter Smith,TRK-396,2025-01-31,2025-02-05,5,2025-01
+ORD-10489,Vision Holdings,Lagos,Nigeria,Air Freight,Bulk Contract,5040.24,11,Delivered,True,Joseph Mensah,TRK-565,2025-03-11,2025-03-12,1,2025-03
+ORD-10772,Titan Exports,Nairobi,Kenya,Air Freight,Bulk Contract,7494.47,9,Delivered,True,Joseph Ali,TRK-176,2025-03-10,2025-03-15,5,2025-03
+ORD-10378,Nova Imports,Shanghai,China,Air Freight,Standard,10233.29,8,Delivered,True,Joseph Mensah,TRK-790,2026-03-12,2026-03-17,5,2026-03
+ORD-10288,Nova Holdings,Cairo,Egypt,Road Freight,Express,6424.11,11,Delayed,False,David Ali,TRK-253,2025-09-24,2025-10-10,16,2025-09
+ORD-10418,Global Imports,Cairo,Egypt,Road Freight,Standard,8790.9,4,Delivered,False,David Ojo,TRK-296,2025-02-04,2025-02-06,2,2025-02
+ORD-10674,Nova Exports,New York,USA,Sea Freight,Bulk Contract,12431.85,7,Delivered,True,David Cole,TRK-231,2025-09-10,2025-09-25,15,2025-09
+ORD-10391,Blue Exports,Hamburg,Germany,Air Freight,Express,9630.77,10,Delivered,True,Samuel Ojo,TRK-925,2025-02-21,2025-02-23,2,2025-02
+ORD-10592,Blue Holdings,Abuja,Nigeria,Road Freight,Standard,4218.67,11,Delayed,False,Michael Mensah,TRK-209,2026-01-13,2026-01-29,16,2026-01
+ORD-10498,Titan Partners,Shanghai,China,Sea Freight,Express,34583.81,10,Delayed,False,Victor Khan,TRK-488,2025-03-01,2025-03-16,15,2025-03
+ORD-10138,Global Industries,Abuja,Nigeria,Air Freight,Express,9497.65,5,Delivered,True,Joseph Ali,TRK-381,2025-11-05,2025-11-08,3,2025-11
+ORD-10062,Elite Holdings,Hamburg,Germany,Road Freight,Standard,7056.34,16,Delivered,True,Joseph Cole,TRK-909,2025-10-16,2025-10-22,6,2025-10
+ORD-10647,Global Industries,São Paulo,Brazil,Road Freight,Express,6147.29,7,Delivered,True,James Musa,TRK-462,2026-02-01,2026-02-04,3,2026-02
+ORD-10128,Prime Industries,Lagos,Nigeria,Sea Freight,Standard,30868.38,5,Delivered,True,Samuel Mensah,TRK-139,2025-02-11,2025-03-04,21,2025-02
+ORD-10996,Elite Industries,Abuja,Nigeria,Sea Freight,Standard,30322.39,10,Delayed,False,Victor Okafor,TRK-719,2025-12-28,2026-01-26,29,2025-12
+ORD-10520,Swift Partners,Accra,Ghana,Sea Freight,Standard,33787.49,6,In Transit,False,Joseph Okafor,TRK-742,2025-11-09,2025-12-11,32,2025-11
+ORD-10838,Vision Retail,Johannesburg,South Africa,Air Freight,Standard,12042.9,14,Delivered,True,Daniel Smith,TRK-881,2025-10-23,2025-10-26,3,2025-10
+ORD-10982,Apex Imports,Toronto,Canada,Sea Freight,Standard,25889.23,8,Delivered,True,Daniel Brown,TRK-588,2025-02-25,2025-03-21,24,2025-02
+ORD-10064,Apex Partners,Nairobi,Kenya,Road Freight,Standard,6179.37,5,Delivered,True,Joseph Ojo,TRK-398,2025-05-03,2025-05-07,4,2025-05
+ORD-10812,Global Exports,Mumbai,India,Road Freight,Express,9371.94,12,Delivered,True,Michael Okafor,TRK-374,2025-01-11,2025-01-13,2,2025-01
+ORD-10014,Metro Partners,Hamburg,Germany,Sea Freight,Standard,17795.53,6,Delivered,True,Victor Ojo,TRK-223,2026-01-09,2026-02-10,32,2026-01
+ORD-10156,Nova Imports,Abuja,Nigeria,Sea Freight,Bulk Contract,27777.91,11,Delivered,True,Peter Musa,TRK-395,2026-01-27,2026-02-18,22,2026-01
+ORD-10040,Prime Holdings,Toronto,Canada,Sea Freight,Standard,20462.3,9,Delivered,False,Michael Mensah,TRK-923,2025-12-19,2025-12-29,10,2025-12
+ORD-10492,Nova Retail,London,UK,Air Freight,Bulk Contract,8990.99,3,Delivered,True,Joseph Ade,TRK-451,2025-08-30,2025-08-31,1,2025-08
+ORD-10379,Apex Holdings,Lagos,Nigeria,Sea Freight,Express,15991.5,10,In Transit,False,Joseph Khan,TRK-630,2025-02-14,2025-03-02,16,2025-02
+ORD-10187,Apex Partners,Cairo,Egypt,Sea Freight,Standard,37072.28,4,In Transit,False,John Brown,TRK-758,2026-03-27,2026-04-29,33,2026-03
+ORD-10763,Elite Industries,Shanghai,China,Air Freight,Standard,13711.47,14,Delivered,False,Joseph Ali,TRK-252,2025-08-31,2025-09-02,2,2025-08
+ORD-10216,Apex Supplies,New York,USA,Sea Freight,Express,20114.15,10,Delivered,True,John Okafor,TRK-364,2025-11-27,2025-12-25,28,2025-11
+ORD-10791,Apex Holdings,Accra,Ghana,Air Freight,Standard,6460.45,8,Delivered,True,Samuel Okafor,TRK-210,2025-12-16,2025-12-18,2,2025-12
+ORD-10052,Nova Logistics,Toronto,Canada,Road Freight,Standard,5709.69,9,Delivered,True,Peter Musa,TRK-538,2025-06-04,2025-06-16,12,2025-06
+ORD-10878,Prime Imports,Lagos,Nigeria,Sea Freight,Bulk Contract,21037.86,11,Delivered,True,Peter Musa,TRK-105,2025-06-15,2025-07-17,32,2025-06
+ORD-10337,Elite Holdings,Johannesburg,South Africa,Road Freight,Standard,3466.48,4,Delayed,False,Michael Musa,TRK-903,2026-01-14,2026-02-01,18,2026-01
+ORD-10748,Nova Partners,Shanghai,China,Sea Freight,Express,36430.53,12,Delayed,False,Ibrahim Cole,TRK-913,2026-02-18,2026-03-28,38,2026-02
+ORD-10719,Apex Logistics,Hamburg,Germany,Air Freight,Express,10227.44,10,Delayed,False,John Brown,TRK-940,2025-05-08,2025-05-13,5,2025-05
+ORD-10724,Metro Partners,Johannesburg,South Africa,Rail Freight,Express,16333.99,8,Delivered,True,David Brown,TRK-118,2026-01-30,2026-02-14,15,2026-01
+ORD-10295,Vision Industries,Dubai,UAE,Sea Freight,Express,22500.96,6,Delivered,True,Peter Mensah,TRK-957,2025-01-16,2025-01-31,15,2025-01
+ORD-10251,Global Logistics,Johannesburg,South Africa,Air Freight,Express,5503.58,10,Delayed,False,Michael Ade,TRK-583,2025-12-12,2025-12-20,8,2025-12
+ORD-10726,Vision Retail,São Paulo,Brazil,Air Freight,Standard,9601.88,18,Delivered,True,Michael Mensah,TRK-484,2025-05-05,2025-05-10,5,2025-05
+ORD-10461,Vision Exports,São Paulo,Brazil,Air Freight,Express,9332.42,5,Delivered,False,David Smith,TRK-437,2025-07-14,2025-07-15,1,2025-07
+ORD-10455,Elite Holdings,Dubai,UAE,Road Freight,Standard,5446.0,8,Delivered,True,John Mensah,TRK-443,2026-01-08,2026-01-18,10,2026-01
+ORD-10815,Apex Holdings,London,UK,Sea Freight,Standard,25393.13,4,Delayed,False,Samuel Brown,TRK-771,2025-03-14,2025-03-27,13,2025-03
+ORD-10862,Nova Supplies,São Paulo,Brazil,Air Freight,Standard,6661.4,12,In Transit,False,David Mensah,TRK-389,2026-03-20,2026-03-21,1,2026-03
+ORD-10269,Blue Retail,Mumbai,India,Rail Freight,Standard,15522.02,5,Delayed,False,Victor Ade,TRK-882,2025-04-30,2025-05-09,9,2025-04
+ORD-10201,Prime Logistics,London,UK,Sea Freight,Express,22036.71,8,Delivered,True,Michael Khan,TRK-988,2025-02-12,2025-03-07,23,2025-02
+ORD-10161,Swift Holdings,Accra,Ghana,Rail Freight,Express,9136.23,16,Delayed,False,Samuel Khan,TRK-132,2025-10-23,2025-10-30,7,2025-10
+ORD-10555,Metro Partners,Shanghai,China,Air Freight,Standard,8523.29,8,Delivered,True,Samuel Brown,TRK-267,2026-03-09,2026-03-12,3,2026-03
+ORD-10729,Blue Exports,Dubai,UAE,Road Freight,Standard,8321.55,10,Delivered,True,David Mensah,TRK-706,2025-04-09,2025-04-11,2,2025-04
+ORD-10401,Nova Holdings,London,UK,Sea Freight,Same Day,22672.85,6,Delivered,True,Victor Musa,TRK-417,2025-04-01,2025-04-29,28,2025-04
+ORD-10702,Blue Partners,New York,USA,Sea Freight,Express,28972.33,4,Delivered,True,Daniel Brown,TRK-910,2025-07-23,2025-08-08,16,2025-07
+ORD-10476,Apex Logistics,Hamburg,Germany,Road Freight,Standard,3747.23,13,Delivered,False,David Ali,TRK-501,2025-01-15,2025-01-24,9,2025-01
+ORD-10821,Vision Partners,Mumbai,India,Road Freight,Standard,5856.65,9,In Transit,False,Victor Musa,TRK-941,2025-05-06,2025-05-14,8,2025-05
+ORD-10565,Prime Imports,Lagos,Nigeria,Sea Freight,Express,218245.5,9,In Transit,False,Victor Ojo,TRK-475,2025-03-29,2025-04-29,31,2025-03
+ORD-10389,Titan Exports,Johannesburg,South Africa,Road Freight,Standard,5866.02,10,Delivered,True,Victor Smith,TRK-342,2025-10-25,2025-10-28,3,2025-10
+ORD-10001,Nova Retail,Nairobi,Kenya,Sea Freight,Express,26533.82,14,Delivered,True,John Mensah,TRK-814,2026-01-02,2026-01-29,27,2026-01
+ORD-10990,Global Retail,London,UK,Road Freight,Standard,4251.02,2,Delivered,True,Michael Khan,TRK-810,2025-04-02,2025-04-06,4,2025-04
+ORD-10561,Swift Supplies,Toronto,Canada,Road Freight,Standard,7149.71,3,Delayed,False,Ibrahim Okafor,TRK-179,2025-03-14,2025-03-23,9,2025-03
+ORD-10931,Metro Industries,Port Harcourt,Nigeria,Sea Freight,Standard,27554.42,1,Delivered,False,Michael Brown,TRK-547,2025-08-13,2025-08-26,13,2025-08
+ORD-10080,Prime Supplies,London,UK,Air Freight,Standard,9630.77,11,Delivered,True,Daniel Mensah,TRK-810,2025-05-28,2025-05-30,2,2025-05
+ORD-10205,Apex Holdings,Cairo,Egypt,Rail Freight,Standard,14490.65,3,Delivered,True,Samuel Cole,TRK-776,2026-02-06,2026-02-18,12,2026-02
+ORD-10034,Apex Imports,Accra,Ghana,Air Freight,Express,9904.09,5,Delivered,True,James Ade,TRK-825,2026-02-07,2026-02-08,1,2026-02
+ORD-10775,Elite Holdings,Mumbai,India,Sea Freight,Standard,21298.92,7,Delivered,True,David Brown,TRK-755,2025-02-09,2025-02-27,18,2025-02
+ORD-10508,Nova Logistics,New York,USA,Road Freight,Bulk Contract,4827.45,6,Delivered,True,Victor Ojo,TRK-589,2025-05-17,2025-05-21,4,2025-05
+ORD-10427,Prime Holdings,Johannesburg,South Africa,Air Freight,Standard,12551.26,5,Delayed,False,Joseph Khan,TRK-851,2025-05-08,2025-05-14,6,2025-05
+ORD-10454,Swift Supplies,São Paulo,Brazil,Road Freight,Standard,7161.87,16,Delivered,True,David Okafor,TRK-823,2025-05-09,2025-05-16,7,2025-05
+ORD-10366,Swift Exports,Dubai,UAE,Sea Freight,Express,24857.77,1,Delivered,True,Victor Ade,TRK-686,2025-07-30,2025-08-08,9,2025-07
+ORD-10091,Global Retail,Abuja,Nigeria,Road Freight,Standard,4072.39,9,Delivered,True,Daniel Okafor,TRK-199,2025-11-29,2025-12-07,8,2025-11
+ORD-10339,Nova Imports,Hamburg,Germany,Road Freight,Bulk Contract,7684.22,13,Delivered,True,Michael Smith,TRK-559,2025-04-26,2025-05-08,12,2025-04
+ORD-10897,Titan Retail,London,UK,Air Freight,Bulk Contract,9532.99,4,Delivered,True,Michael Ade,TRK-693,2025-06-19,2025-06-23,4,2025-06
+ORD-10564,Blue Supplies,Toronto,Canada,Rail Freight,Bulk Contract,11775.52,9,Delivered,True,David Cole,TRK-881,2025-03-24,2025-04-11,18,2025-03
+ORD-10345,Vision Logistics,London,UK,Road Freight,Standard,5350.26,12,Delivered,True,James Khan,TRK-428,2026-01-30,2026-02-06,7,2026-01
+ORD-10776,Blue Holdings,Abuja,Nigeria,Sea Freight,Standard,110978.84,4,Delivered,True,David Okafor,TRK-279,2026-03-21,2026-04-25,35,2026-03
+ORD-10241,Vision Imports,Hamburg,Germany,Road Freight,Standard,3108.4,8,Delivered,False,David Okafor,TRK-243,2025-11-18,2025-11-22,4,2025-11
+ORD-10013,Elite Exports,Toronto,Canada,Sea Freight,Standard,13943.04,9,Delayed,False,James Musa,TRK-993,2026-01-28,2026-02-14,17,2026-01
+ORD-10315,Blue Partners,Accra,Ghana,Road Freight,Same Day,2953.56,14,Delivered,True,Peter Khan,TRK-102,2025-07-29,2025-08-04,6,2025-07
+ORD-10600,Apex Industries,Port Harcourt,Nigeria,Sea Freight,Express,22876.57,6,Delayed,False,Daniel Ojo,TRK-994,2025-11-29,2026-01-09,41,2025-11
+ORD-10387,Elite Retail,Dubai,UAE,Sea Freight,Standard,26352.67,1,Delayed,False,Ibrahim Khan,TRK-868,2025-10-22,2025-11-14,23,2025-10
+ORD-10273,Apex Supplies,Hamburg,Germany,Road Freight,Standard,7038.73,7,Delivered,False,Peter Smith,TRK-430,2025-09-27,2025-10-04,7,2025-09
+ORD-10166,Titan Supplies,London,UK,Sea Freight,Same Day,22530.63,5,Delayed,False,Peter Ojo,TRK-771,2026-01-31,2026-03-10,38,2026-01
+ORD-10840,Vision Retail,Port Harcourt,Nigeria,Sea Freight,Standard,24826.11,7,Delivered,True,John Cole,TRK-759,2025-06-10,2025-07-01,21,2025-06
+ORD-10646,Elite Industries,Cairo,Egypt,Road Freight,Express,5989.07,11,Delivered,True,Samuel Ade,TRK-128,2025-10-04,2025-10-09,5,2025-10
+ORD-10818,Prime Retail,Port Harcourt,Nigeria,Road Freight,Standard,4280.78,9,Delivered,True,Daniel Brown,TRK-371,2025-06-04,2025-06-15,11,2025-06
+ORD-10484,Global Exports,Dubai,UAE,Road Freight,Standard,5927.72,2,Delivered,False,Samuel Ojo,TRK-644,2025-03-13,2025-03-24,11,2025-03
+ORD-10504,Vision Supplies,New York,USA,Road Freight,Express,7889.19,5,Delayed,False,Daniel Smith,TRK-887,2025-04-05,2025-04-09,4,2025-04
+ORD-10831,Titan Imports,Mumbai,India,Road Freight,Standard,2180.66,5,Delivered,True,Victor Khan,TRK-753,2025-10-05,2025-10-08,3,2025-10
+ORD-10243,Blue Partners,London,UK,Road Freight,Standard,4836.17,3,Delivered,True,Ibrahim Okafor,TRK-346,2025-11-27,2025-11-29,2,2025-11
+ORD-10566,Apex Imports,Toronto,Canada,Road Freight,Standard,8904.68,9,In Transit,False,Victor Khan,TRK-517,2025-04-03,2025-04-10,7,2025-04
+ORD-10875,Global Partners,Port Harcourt,Nigeria,Road Freight,Express,1134.18,10,Delivered,True,James Mensah,TRK-961,2025-01-11,2025-01-16,5,2025-01
+ORD-10562,Prime Retail,Lagos,Nigeria,Road Freight,Express,8940.18,3,Delivered,True,John Okafor,TRK-408,2025-02-25,2025-02-26,1,2025-02
+ORD-10972,Titan Retail,Cairo,Egypt,Road Freight,Express,7118.83,6,Delivered,True,Victor Khan,TRK-971,2026-02-17,2026-02-23,6,2026-02
+ORD-10686,Blue Imports,Hamburg,Germany,Road Freight,Standard,3530.58,1,Delivered,False,Michael Okafor,TRK-449,2026-02-24,2026-03-06,10,2026-02
+ORD-10957,Vision Holdings,São Paulo,Brazil,Sea Freight,Express,9392.6,5,Delivered,True,Daniel Ali,TRK-396,2026-01-05,2026-01-15,10,2026-01
+ORD-10782,Elite Supplies,Mumbai,India,Road Freight,Same Day,7326.32,6,Delivered,True,Ibrahim Ade,TRK-731,2025-09-18,2025-09-22,4,2025-09
+ORD-10699,Elite Supplies,Accra,Ghana,Sea Freight,Standard,30402.9,5,Delivered,True,James Khan,TRK-200,2025-11-27,2025-12-09,12,2025-11
+ORD-10475,Titan Imports,Lagos,Nigeria,Rail Freight,Express,11155.67,9,Delivered,True,Samuel Okafor,TRK-418,2025-10-05,2025-10-12,7,2025-10
+ORD-10681,Elite Logistics,Port Harcourt,Nigeria,Air Freight,Bulk Contract,9298.95,4,Delivered,True,James Ali,TRK-511,2025-11-09,2025-11-13,4,2025-11
+ORD-10510,Metro Supplies,Johannesburg,South Africa,Road Freight,Standard,6941.1,5,Delivered,True,Daniel Smith,TRK-763,2025-11-28,2025-12-01,3,2025-11
+ORD-10058,Titan Retail,New York,USA,Road Freight,Standard,5937.52,3,Delivered,True,James Khan,TRK-223,2025-08-06,2025-08-16,10,2025-08
+ORD-10474,Titan Exports,São Paulo,Brazil,Sea Freight,Standard,21680.9,8,Delivered,True,Samuel Smith,TRK-217,2025-09-30,2025-10-20,20,2025-09
+ORD-10560,Nova Industries,Shanghai,China,Air Freight,Standard,11763.81,12,Delivered,True,Samuel Smith,TRK-129,2025-12-20,2025-12-23,3,2025-12
+ORD-10856,Apex Imports,Mumbai,India,Sea Freight,Standard,6791.31,11,Delayed,False,John Ali,TRK-133,2025-05-16,2025-06-12,27,2025-05
+ORD-10747,Vision Holdings,London,UK,Sea Freight,Express,32794.77,16,Delayed,False,Michael Ade,TRK-753,2025-07-08,2025-08-05,28,2025-07
+ORD-10252,Apex Imports,Johannesburg,South Africa,Sea Freight,Standard,17445.5,6,In Transit,False,Peter Khan,TRK-526,2026-03-16,2026-03-27,11,2026-03
+ORD-10021,Nova Partners,Nairobi,Kenya,Sea Freight,Same Day,21190.46,6,Delivered,True,Victor Musa,TRK-261,2025-10-05,2025-10-16,11,2025-10
+ORD-10313,Elite Retail,Dubai,UAE,Road Freight,Standard,4218.71,7,Delivered,True,Joseph Cole,TRK-817,2025-01-05,2025-01-11,6,2025-01
+ORD-10459,Nova Retail,Shanghai,China,Sea Freight,Standard,18874.96,8,Delivered,True,Unknown,TRK-150,2025-06-28,2025-07-09,11,2025-06
+ORD-10160,Apex Retail,Shanghai,China,Sea Freight,Standard,22678.97,10,Delivered,True,John Cole,TRK-585,2025-09-01,2025-09-11,10,2025-09
+ORD-10276,Metro Industries,São Paulo,Brazil,Road Freight,Express,8102.01,9,Delivered,True,Samuel Okafor,TRK-941,2025-02-23,2025-03-03,8,2025-02
+ORD-10955,Global Holdings,Dubai,UAE,Air Freight,Standard,13331.29,16,Delivered,True,John Mensah,TRK-174,2025-10-11,2025-10-15,4,2025-10
+ORD-10191,Blue Industries,Lagos,Nigeria,Road Freight,Standard,2176.99,5,Delayed,False,James Ade,TRK-316,2026-01-06,2026-01-24,18,2026-01
+ORD-10385,Blue Imports,Nairobi,Kenya,Road Freight,Standard,7273.95,5,In Transit,False,Michael Smith,TRK-311,2025-12-16,2025-12-21,5,2025-12
+ORD-10805,Titan Logistics,Accra,Ghana,Road Freight,Standard,5474.74,1,Delivered,True,Samuel Smith,TRK-236,2025-03-02,2025-03-06,4,2025-03
+ORD-10413,Elite Supplies,Port Harcourt,Nigeria,Sea Freight,Express,33057.01,5,Delivered,True,Samuel Ojo,TRK-338,2026-01-24,2026-02-22,29,2026-01
+ORD-10491,Prime Exports,Johannesburg,South Africa,Air Freight,Standard,6582.56,7,Delivered,True,Victor Smith,TRK-576,2025-07-08,2025-07-09,1,2025-07
+ORD-10343,Blue Partners,London,UK,Sea Freight,Standard,20317.72,6,Delivered,True,Victor Ade,TRK-217,2025-04-20,2025-05-21,31,2025-04
+ORD-10769,Titan Logistics,London,UK,Sea Freight,Standard,13810.58,1,Delivered,True,David Okafor,TRK-618,2025-10-22,2025-11-07,16,2025-10
+ORD-10308,Global Logistics,Lagos,Nigeria,Air Freight,Standard,9273.49,10,Delivered,True,Michael Khan,TRK-810,2025-01-08,2025-01-11,3,2025-01
+ORD-10661,Swift Retail,Port Harcourt,Nigeria,Sea Freight,Bulk Contract,21506.51,9,Delivered,True,Samuel Mensah,TRK-361,2025-05-12,2025-05-24,12,2025-05
+ORD-10130,Prime Logistics,Shanghai,China,Air Freight,Bulk Contract,6682.67,7,Delivered,True,Michael Ali,TRK-754,2025-08-05,2025-08-06,1,2025-08
+ORD-10663,Nova Imports,Johannesburg,South Africa,Air Freight,Bulk Contract,6651.66,7,Delivered,True,Daniel Musa,TRK-870,2026-02-28,2026-03-01,1,2026-02
+ORD-10871,Metro Holdings,Hamburg,Germany,Road Freight,Express,6126.09,12,In Transit,False,Samuel Brown,TRK-351,2025-06-30,2025-07-07,7,2025-06
+ORD-10099,Nova Industries,New York,USA,Air Freight,Express,9630.77,3,Delivered,True,Ibrahim Cole,TRK-643,2025-02-11,2025-02-12,1,2025-02
+ORD-10372,Global Supplies,Dubai,UAE,Road Freight,Bulk Contract,6931.79,5,Delivered,True,Victor Ade,TRK-484,2025-11-03,2025-11-13,10,2025-11
+ORD-10087,Swift Industries,Dubai,UAE,Air Freight,Standard,9691.73,11,Delivered,True,Victor Musa,TRK-379,2025-06-01,2025-06-04,3,2025-06
+ORD-10458,Elite Retail,Nairobi,Kenya,Road Freight,Standard,7094.21,8,Delivered,True,Joseph Musa,TRK-939,2025-02-10,2025-02-21,11,2025-02
+ORD-10214,Apex Holdings,Shanghai,China,Road Freight,Standard,7905.16,1,Delivered,True,David Ojo,TRK-712,2025-11-21,2025-11-27,6,2025-11
+ORD-10466,Swift Imports,Johannesburg,South Africa,Road Freight,Standard,3393.57,1,Delivered,True,Peter Brown,TRK-788,2025-07-22,2025-08-02,11,2025-07
+ORD-10121,Elite Supplies,Hamburg,Germany,Road Freight,Standard,6908.98,11,Delivered,True,Ibrahim Musa,TRK-470,2025-11-26,2025-12-03,7,2025-11
+ORD-10614,Prime Industries,Abuja,Nigeria,Road Freight,Standard,7734.98,16,Delivered,True,Samuel Ade,TRK-183,2025-12-15,2025-12-18,3,2025-12
+ORD-10020,Titan Holdings,Cairo,Egypt,Rail Freight,Standard,14584.63,8,Delivered,False,Victor Ojo,TRK-258,2025-07-19,2025-07-28,9,2025-07
+ORD-10700,Titan Imports,Abuja,Nigeria,Air Freight,Standard,6382.72,10,Delivered,True,Joseph Mensah,TRK-975,2025-04-11,2025-04-14,3,2025-04
+ORD-10071,Apex Logistics,Accra,Ghana,Sea Freight,Same Day,10747.62,8,Delivered,True,Unknown,TRK-470,2025-09-21,2025-10-01,10,2025-09
+ORD-10106,Titan Industries,New York,USA,Rail Freight,Standard,15339.01,10,Delivered,True,Joseph Cole,TRK-186,2025-07-12,2025-07-23,11,2025-07
+ORD-10270,Metro Logistics,Nairobi,Kenya,Road Freight,Same Day,7504.25,3,Delivered,True,Peter Cole,TRK-677,2026-03-06,2026-03-10,4,2026-03
+ORD-10860,Prime Holdings,Abuja,Nigeria,Air Freight,Standard,10282.76,6,Delayed,False,John Mensah,TRK-564,2025-03-20,2025-03-27,7,2025-03
+ORD-10102,Elite Industries,Abuja,Nigeria,Air Freight,Standard,5555.83,4,Delivered,True,David Ali,TRK-462,2026-02-20,2026-02-22,2,2026-02
